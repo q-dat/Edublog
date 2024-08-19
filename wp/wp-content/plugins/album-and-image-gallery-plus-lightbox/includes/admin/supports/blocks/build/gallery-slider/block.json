@@ -1,0 +1,109 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "aigpl/gallery-slider",
+  "version": "1.0",
+  "title": "Gallery Slider",
+  "category": "essp_guten_block",
+  "icon": "format-gallery",
+  "description": "Display gallery in a slider view with various layouts.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "align": true
+  },
+  "textdomain": "album-and-image-gallery-plus-lightbox",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "keywords": [
+    "essential",
+    "gallery slider",
+    "aigpl-gallery-slider"
+  ],
+  "attributes": {
+    "id": {
+      "type": "string",
+      "default": ""
+    },
+    "design": {
+      "type": "string",
+      "default": "design-1"
+    },
+    "show_title": {
+      "type": "boolean",
+      "default": false
+    },
+    "show_description": {
+      "type": "boolean",
+      "default": false
+    },
+    "show_caption": {
+      "type": "boolean",
+      "default": true
+    },
+    "image_size": {
+      "type": "string",
+      "default": "full"
+    },
+    "popup": {
+      "type": "string",
+      "default": "true"
+    },
+    "link_target": {
+      "type": "string",
+      "default": "self"
+    },
+    "gallery_height": {
+      "type": "number",
+      "default": "self"
+    },
+    "slidestoshow": {
+      "type": "number",
+      "default": 3
+    },
+    "slidestoscroll": {
+      "type": "number",
+      "default": 1
+    },
+    "dots": {
+      "type": "string",
+      "default": "true"
+    },
+    "arrows": {
+      "type": "string",
+      "default": "true"
+    },
+    "autoplay": {
+      "type": "string",
+      "default": "true"
+    },
+    "autoplay_interval": {
+      "type": "number",
+      "default": 3000
+    },
+    "speed": {
+      "type": "number",
+      "default": 300
+    },
+    "loop": {
+      "type": "string",
+      "default": "true"
+    },
+    "lazyload": {
+      "type": "string",
+      "default": ""
+    },
+    "grid": {
+      "type": "number",
+      "default": 3
+    },
+    "align": {
+      "type": "string",
+      "default": ""
+    },
+    "className": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}

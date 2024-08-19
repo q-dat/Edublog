@@ -1,0 +1,73 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "aigpl/gallery",
+  "version": "1.0",
+  "title": "Gallery Grid",
+  "category": "essp_guten_block",
+  "icon": "format-gallery",
+  "description": "Display gallery in a grid view with various layouts.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "align": true
+  },
+  "textdomain": "album-and-image-gallery-plus-lightbox",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "keywords": [
+    "essential",
+    "gallery grid",
+    "aigpl-gallery"
+  ],
+  "attributes": {
+    "id": {
+      "type": "string",
+      "default": ""
+    },
+    "design": {
+      "type": "string",
+      "default": "design-1"
+    },
+    "grid": {
+      "type": "number",
+      "default": 3
+    },
+    "show_title": {
+      "type": "boolean",
+      "default": false
+    },
+    "show_description": {
+      "type": "boolean",
+      "default": false
+    },
+    "show_caption": {
+      "type": "boolean",
+      "default": true
+    },
+    "image_size": {
+      "type": "string",
+      "default": "full"
+    },
+    "gallery_height": {
+      "type": "number",
+      "default": ""
+    },
+    "popup": {
+      "type": "string",
+      "default": "true"
+    },
+    "link_target": {
+      "type": "string",
+      "default": "self"
+    },
+    "align": {
+      "type": "string",
+      "default": ""
+    },
+    "className": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}

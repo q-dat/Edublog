@@ -1,0 +1,153 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "aigpl/gallery-album-slider",
+  "version": "1.0",
+  "title": "Gallery Album Slider",
+  "category": "essp_guten_block",
+  "icon": "format-gallery",
+  "description": "Display gallery album in a slider view with various layouts.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "align": true
+  },
+  "textdomain": "album-and-image-gallery-plus-lightbox",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "keywords": [
+    "essential",
+    "gallery album slider",
+    "aigpl-gallery-album-slider"
+  ],
+  "attributes": {
+    "image_size": {
+      "type": "string",
+      "default": "full"
+    },
+    "album_design": {
+      "type": "string",
+      "default": "design-1"
+    },
+    "album_title": {
+      "type": "boolean",
+      "default": false
+    },
+    "album_description": {
+      "type": "boolean",
+      "default": false
+    },
+    "album_full_content": {
+      "type": "boolean",
+      "default": false
+    },
+    "words_limit": {
+      "type": "number",
+      "default": 40
+    },
+    "content_tail": {
+      "type": "string",
+      "default": "..."
+    },
+    "album_height": {
+      "type": "number",
+      "default": ""
+    },
+    "total_photo": {
+      "type": "string",
+      "default": "{total} photos"
+    },
+    "album_link_target": {
+      "type": "string",
+      "default": "self"
+    },
+    "design": {
+      "type": "string",
+      "default": "design-1"
+    },
+    "grid": {
+      "type": "number",
+      "default": 3
+    },
+    "show_title": {
+      "type": "string",
+      "default": "false"
+    },
+    "show_description": {
+      "type": "string",
+      "default": "false"
+    },
+    "show_caption": {
+      "type": "string",
+      "default": "true"
+    },
+    "popup": {
+      "type": "string",
+      "default": "true"
+    },
+    "link_target": {
+      "type": "string",
+      "default": "self"
+    },
+    "gallery_height": {
+      "type": "number",
+      "default": ""
+    },
+    "album_slidestoshow": {
+      "type": "number",
+      "default": 3
+    },
+    "album_slidestoscroll": {
+      "type": "number",
+      "default": 1
+    },
+    "album_dots": {
+      "type": "string",
+      "default": "true"
+    },
+    "album_arrows": {
+      "type": "string",
+      "default": "true"
+    },
+    "album_autoplay": {
+      "type": "string",
+      "default": "true"
+    },
+    "album_autoplay_interval": {
+      "type": "number",
+      "default": 3000
+    },
+    "album_speed": {
+      "type": "number",
+      "default": 300
+    },
+    "loop": {
+      "type": "string",
+      "default": "true"
+    },
+    "lazyload": {
+      "type": "string",
+      "default": ""
+    },
+    "limit": {
+      "type": "number",
+      "default": 15
+    },
+    "category": {
+      "type": "string",
+      "default": ""
+    },
+    "id": {
+      "type": "string",
+      "default": ""
+    },
+    "align": {
+      "type": "string",
+      "default": ""
+    },
+    "className": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}
