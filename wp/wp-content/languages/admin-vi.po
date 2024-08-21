@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.6.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-08-16 16:00:37+0000\n"
+"PO-Revision-Date: 2024-08-19 00:56:42+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1713,7 +1713,7 @@ msgstr "Trình chỉnh sửa plugin"
 
 #: wp-admin/menu.php:255 wp-admin/menu.php:256 wp-admin/network/menu.php:82
 msgid "Theme File Editor"
-msgstr "Trình chỉnh sửa tập tin giao diện"
+msgstr "Sửa tập tin giao diện"
 
 #. translators: %s: Documentation URL.
 #: wp-admin/user-edit.php:856

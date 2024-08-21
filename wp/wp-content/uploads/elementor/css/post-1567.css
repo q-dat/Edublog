@@ -1,0 +1,110 @@
+.elementor-1567 .elementor-element.elementor-element-644d2f6f{margin-top:0px;margin-bottom:0px;}.elementor-1567 .elementor-element.elementor-element-175d307 > .elementor-element-populated{margin:0120px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;}/* Start custom CSS for html, class: .elementor-element-9d21cdc */<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    p {
+        color: #555;
+    }
+
+    h3.title {
+        color: #e74c3c;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        border: 1px solid #ddd;
+        overflow: hidden;
+    }
+
+    th,
+    td {
+        padding: 10px;
+        text-align: center;
+    }
+
+    th {
+        background-color: #e74c3c;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    td.first-column {
+        background-color: gray;
+        border-right: 1px solid #ddd;
+    }
+
+    td.first-column p {
+        color: #fff;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    tr:nth-child(odd) {
+        background-color: #fff;
+    }
+
+    td {
+        background-color: #fafafa;
+        border-bottom: 1px solid #ddd;
+    }
+
+    ul {
+        margin: 20px;
+        padding: 0;
+        list-style-type: disc;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    @media (max-width: 768px) {
+        .section-title {
+            font-size: 1.2em;
+        }
+
+        table,
+        th,
+        td {
+            font-size: 14px;
+            padding: 8px;
+        }
+
+        ul {
+            margin: 10px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .section-title {
+            font-size: 1em;
+        }
+
+        table,
+        th,
+        td {
+            font-size: 12px;
+            padding: 6px;
+        }
+
+        ul {
+            margin: 5px;
+        }
+    }
+</style>/* End custom CSS */

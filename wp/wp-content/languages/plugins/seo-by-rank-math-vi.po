@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Rank Math SEO – AI SEO Tools to Dominate SEO Rankings - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-08-11 13:51:49+0000\n"
+"PO-Revision-Date: 2024-08-19 14:53:42+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1316,7 +1316,7 @@ msgstr "Tính toán lại điểm"
 
 #: includes/modules/database-tools/class-database-tools.php:407
 msgid "This tool will calculate the SEO score for the posts/pages that have a Focus Keyword set. Note: This process may take some time and the browser tab must be kept open while it is running."
-msgstr "Công cụ này sẽ tính toán điểm SEO cho các bài viết/trang đã đặt Từ khóa tập trung. Lưu ý: Quá trình này có thể mất một chút thời gian và tab trình duyệt phải được giữ mở trong khi nó đang chạy."
+msgstr "Công cụ này sẽ tính toán điểm SEO cho các bài viết/trang đã đặt từ khóa chính. Lưu ý: Quá trình này có thể mất một chút thời gian và tab trình duyệt phải được giữ mở trong khi nó đang chạy."
 
 #: includes/modules/local-seo/views/titles-options.php:75
 #: includes/settings/titles/local.php:59
@@ -2214,16 +2214,16 @@ msgstr "Khi hình ảnh nổi bật hoặc Hình ảnh OpenGraph không được
 msgid "Spain"
 msgstr "Tây Ban Nha"
 
-#: includes/modules/seo-analysis/seo-analysis-tests.php:318
-msgid "Could not check Focus Keywords in posts - the post meta table exceeds the size limit."
-msgstr "Không thể kiểm tra Từ khóa tập trung trong bài viết - bảng meta bài viết vượt quá giới hạn kích thước."
-
 #. Translators: placeholder is the number of modified posts.
 #: includes/modules/database-tools/class-aioseo-blocks.php:78
 #: includes/modules/database-tools/class-yoast-blocks.php:99
 msgid "Blocks successfully converted in %d post."
 msgid_plural "Blocks successfully converted in %d posts."
 msgstr[0] "Khối đã được chuyển đổi thành công trong %d bài viết."
+
+#: includes/modules/seo-analysis/seo-analysis-tests.php:318
+msgid "Could not check Focus Keywords in posts - the post meta table exceeds the size limit."
+msgstr "Không thể kiểm tra từ khoá chính trong bài viết - bảng meta bài viết vượt quá giới hạn kích thước."
 
 #: includes/admin/class-pro-notice.php:244
 msgid "I already purchased"
@@ -2473,7 +2473,7 @@ msgstr "Sơ đồ trang web địa điểm %1$s %2$s"
 
 #: includes/replace-variables/class-advanced-variables.php:56
 msgid "Focus Keywords of the current post"
-msgstr "Từ khóa tập trung của bài viết hiện tại"
+msgstr "Từ khoá chính của bài viết hiện tại"
 
 #: includes/modules/status/class-system-status.php:145
 msgid "(none)"
@@ -3179,11 +3179,6 @@ msgstr "Xóa bộ nhớ cache phân tích để tính toán lại tất cả cá
 msgid "Purge Analytics Cache"
 msgstr "Xóa bộ nhớ cache phân tích"
 
-#. translators: Link to kb article
-#: includes/modules/analytics/class-analytics.php:501
-msgid "See your Google Search Console, Analytics and AdSense data without leaving your WP dashboard. %s."
-msgstr "Xem dữ liệu Google Search Console, Analytics và AdSense của bạn mà không cần rời khỏi bảng điều khiển WP. %s."
-
 #: includes/modules/analytics/class-analytics.php:270
 msgid "Now!"
 msgstr "Ngay bây giờ!"
@@ -3337,6 +3332,11 @@ msgstr "Theo dõi thứ hạng trang và từ khóa với module Phân tích nâ
 #: includes/modules/analytics/class-analytics.php:529
 msgid "Missing some posts/pages in the Analytics data? Clear the index and build a new one for more accurate stats."
 msgstr "Thiếu một số bài viết / trang trong dữ liệu Phân tích? Xóa chỉ mục và xây dựng một chỉ mục mới để có số liệu thống kê chính xác hơn."
+
+#. translators: Link to kb article
+#: includes/modules/analytics/class-analytics.php:501
+msgid "See your Google Search Console, Analytics and AdSense data without leaving your WP dashboard. %s."
+msgstr "Xem dữ liệu Google Search Console, Analytics và AdSense của bạn mà không cần rời khỏi bảng tin WP. %s."
 
 #: includes/helpers/class-schema.php:90
 #: includes/settings/titles/post-types.php:136
@@ -3682,10 +3682,6 @@ msgstr "Chọn cách bạn muốn Rank Math xử lý WooCommerce SEO của bạn
 msgid "Advanced Mode"
 msgstr "Chế độ nâng cao"
 
-#: includes/modules/woocommerce/views/options-general.php:22
-msgid "WordPress Dashboard > Settings > Permalinks > Product permalinks Example: default: /product/accessories/action-figures/acme/ - becomes: /accessories/action-figures/acme/"
-msgstr "Bảng điều khiển WordPress> Cài đặt> Liên kết cố định> Ví dụ về liên kết cố định sản phẩm: mặc định: /product/accessories/action-figures/acme/ - trở thành: /accessories/action-figures/acme/"
-
 #: includes/modules/database-tools/class-database-tools.php:281
 #: includes/modules/database-tools/class-database-tools.php:300
 msgid "Conversion started. A success message will be shown here once the process completes. You can close this page."
@@ -3793,6 +3789,10 @@ msgstr "Rank Math chỉ tạo Sơ đồ trang web mặc định và WPML sẽ lo
 msgid "Change Sitemap settings of %1$s. %2$s."
 msgstr "Thay đổi cài đặt sơ đồ trang web của %1$s. %2$s."
 
+#: includes/modules/woocommerce/views/options-general.php:22
+msgid "WordPress Dashboard > Settings > Permalinks > Product permalinks Example: default: /product/accessories/action-figures/acme/ - becomes: /accessories/action-figures/acme/"
+msgstr "Bảng tin WordPress> Cài đặt> Liên kết cố định> Ví dụ về liên kết cố định sản phẩm: mặc định: /product/accessories/action-figures/acme/ - trở thành: /accessories/action-figures/acme/"
+
 #: includes/modules/status/class-error-log.php:44
 msgid "Error Log"
 msgstr "Nhật ký lỗi"
@@ -3809,7 +3809,7 @@ msgstr "Chỉnh sửa trang: "
 #. translators: something
 #: includes/settings/titles/homepage.php:26
 msgid "Static page is set as the front page (WP Dashboard > Settings > Reading). To add SEO title, description, and meta for the homepage, please click here: %s"
-msgstr "Trang tĩnh được đặt làm trang chủ (Bảng điều khiển WP> Cài đặt> Đọc). Để thêm tiêu đề SEO, mô tả và meta cho trang chủ, vui lòng nhấp vào đây: %s"
+msgstr "Trang tĩnh được đặt làm trang chủ (Bảng tin WP> Cài đặt> Đọc). Để thêm tiêu đề SEO, mô tả và meta cho trang chủ, vui lòng nhấp vào đây: %s"
 
 #. translators: plugin name
 #: includes/admin/watcher/class-watcher.php:125
@@ -4078,6 +4078,10 @@ msgstr "Người kiểm tra bản beta"
 msgid "%s It is not recommended to use the beta version on live production sites."
 msgstr "%s Không nên sử dụng phiên bản beta trên các trang web sản xuất trực tiếp."
 
+#: includes/modules/version-control/views/beta-optin-panel.php:27
+msgid "You can take part in shaping Rank Math by test-driving the newest features and letting us know what you think. Turn on the Beta Tester feature to get notified about new beta releases. The beta version will not install automatically and you always have the option to ignore it."
+msgstr "Bạn có thể tham gia định hình Rank Math bằng cách lái thử các tính năng mới nhất và cho chúng tôi biết suy nghĩ của bạn. Bật tính năng Người kiểm tra bản beta để nhận thông báo về các bản phát hành bản beta mới. Phiên bản beta sẽ không tự động cài đặt và bạn luôn có tùy chọn bỏ qua nó."
+
 #: includes/modules/version-control/views/beta-optin-panel.php:17
 msgid "Beta Opt-in"
 msgstr "Chọn tham gia bản beta"
@@ -4097,10 +4101,6 @@ msgstr "Cập nhật ngay"
 #: includes/modules/version-control/views/version-control-panel.php:37
 msgid "You are using the latest version of the plugin."
 msgstr "Bạn đang sử dụng phiên bản mới nhất của plugin."
-
-#: includes/modules/version-control/views/beta-optin-panel.php:27
-msgid "You can take part in shaping Rank Math by test-driving the newest features and letting us know what you think. Turn on the Beta Tester feature to get notified about new beta releases. The beta version will not install automatically and you always have the option to ignore it."
-msgstr "Bạn có thể tham gia định hình Rank Math bằng cách lái thử các tính năng mới nhất và cho chúng tôi biết suy nghĩ của bạn. Bật tính năng Người kiểm tra bản beta để nhận thông báo về các bản phát hành bản beta mới. Phiên bản beta sẽ không tự động cài đặt và bạn luôn có tùy chọn bỏ qua nó."
 
 #. Translators: placeholder is "Rolled Back Version:".
 #: includes/modules/version-control/views/version-control-panel.php:34
@@ -5258,10 +5258,6 @@ msgstr "Thêm Bộ điều khiển SEO cho màn hình trình chỉnh sửa để
 msgid "Add bulk editing columns to the post listing screen."
 msgstr "Thêm cột chỉnh sửa hàng loạt vào màn hình danh sách bài viết."
 
-#: includes/settings/titles/post-types.php:285
-msgid "Use the Focus Keyword as the default text for the links instead of the post titles."
-msgstr "Sử dụng Từ khóa tập trung làm văn bản mặc định cho các liên kết thay vì tiêu đề bài viết."
-
 #. translators: post type name
 #: includes/settings/titles/post-types.php:82
 msgid "Default description for single %s pages. This can be changed on a per-post basis on the post editor screen."
@@ -5279,6 +5275,10 @@ msgstr "Ngăn các trang và bài viết được bảo vệ bằng mật khẩu
 #: includes/settings/titles/post-types.php:274
 msgid "Enable Link Suggestions meta box for this post type, along with the Pillar Content feature."
 msgstr "Bật hộp meta Đề xuất liên kết cho loại bài viết này, cùng với tính năng nội dung cốt lõi."
+
+#: includes/settings/titles/post-types.php:285
+msgid "Use the Focus Keyword as the default text for the links instead of the post titles."
+msgstr "Sử dụng từ khoá chính làm văn bản mặc định cho các liên kết thay vì tiêu đề bài viết."
 
 #: includes/settings/general/breadcrumbs.php:119
 msgid "404 label"
@@ -6803,14 +6803,6 @@ msgstr "Thứ sáu"
 msgid "Address:"
 msgstr "Địa chỉ:"
 
-#: includes/module/class-manager.php:235
-msgid "Connect Rank Math with Google Search Console to see the most important information from Google directly in your WordPress dashboard."
-msgstr "Kết nối Rank Math với Google Search Console để xem thông tin quan trọng nhất từ ​​Google trực tiếp trong bảng điều khiển WordPress của bạn."
-
-#: includes/replace-variables/class-advanced-variables.php:45
-msgid "Focus Keyword of the current post"
-msgstr "Từ khóa tập trung của bài viết hiện tại"
-
 #: includes/modules/local-seo/views/titles-options.php:252
 msgid "Add"
 msgstr "Thêm"
@@ -6970,11 +6962,6 @@ msgstr "Tùy chỉnh"
 #: includes/settings/titles/homepage.php:68
 msgid "Select custom robots meta for homepage, such as <code>nofollow</code>, <code>noarchive</code>, etc. Otherwise the default meta will be used, as set in the Global Meta tab."
 msgstr "Chọn meta robots tùy chỉnh cho trang chủ, chẳng hạn như <code>nofollow</code>, <code>noarchive</code>, v.v. Nếu không, meta mặc định sẽ được sử dụng, như được đặt trong tab Meta toàn cầu."
-
-#: includes/settings/titles/homepage.php:67
-#: includes/settings/titles/homepage.php:82
-msgid "Homepage Robots Meta"
-msgstr "Meta Robots Trang chủ"
 
 #: includes/settings/titles/homepage.php:52
 msgid "Homepage meta description."
@@ -7302,6 +7289,14 @@ msgstr "Khẩu hiệu trang web của bạn được đặt thành giá trị m�
 msgid "Read <a href=\"%1$s\" target=\"_blank\">this article</a> for detailed instructions on setting up your Google Webmaster account and getting Rank Math to work with the Google Search Console."
 msgstr "Đọc <a href=\"%1$s\" target=\"_blank\">bài viết này</a> để biết hướng dẫn chi tiết về cách thiết lập tài khoản Google Webmaster của bạn và làm cho Rank Math hoạt động với Google Search Console."
 
+#: includes/modules/seo-analysis/seo-analysis-tests.php:135
+msgid "If you don't have an XML sitemap, the best option is to install a plugin that creates sitemaps for you. That way you'll know the sitemap will always be up-to-date. Plugins can also automatically ping the search engines when the XML file is updated. The Rank Math WordPress plugin gives you complete control over your site's XML sitemaps. You can control the settings for each page as you write or edit it, and Rank Math will ping Google as soon as you submit your edits. This results in fast crawls and indexing."
+msgstr "Nếu bạn không có sơ đồ trang web XML, tùy chọn tốt nhất là cài đặt plugin tạo sơ đồ trang web cho bạn. Bằng cách đó, bạn sẽ biết sơ đồ trang web luôn được cập nhật. Plugin cũng có thể tự động ping các công cụ tìm kiếm khi tệp XML được cập nhật. Plugin Rank Math WordPress cung cấp cho bạn toàn quyền kiểm soát sơ đồ trang web XML của trang web. Bạn có thể kiểm soát cài đặt cho mỗi trang khi bạn viết hoặc chỉnh sửa nó và Rank Math sẽ ping Google ngay khi bạn gửi chỉnh sửa của mình. Điều này dẫn đến việc thu thập dữ liệu và lập chỉ mục nhanh chóng."
+
+#: includes/modules/seo-analysis/seo-analysis-tests.php:134
+msgid "XML sitemaps are a special type of text file that tells search engines about the structure of your site. They're a list of all the resources (pages and files) you would like the search engine to index. You can assign different priorities, so certain pages will be crawled first. Before XML sitemaps, search engines were limited to indexing the content they could find by following links. That's still an important feature for search engine spiders, but XML sitemaps have made it easier for content creators and search engines to collaborate."
+msgstr "Sơ đồ trang web XML là một loại tệp văn bản đặc biệt cho các công cụ tìm kiếm biết về cấu trúc trang web của bạn. Chúng là danh sách tất cả các tài nguyên (trang và tệp) mà bạn muốn công cụ tìm kiếm lập chỉ mục. Bạn có thể gán các mức độ ưu tiên khác nhau, vì vậy một số trang nhất định sẽ được thu thập dữ liệu trước. Trước sơ đồ trang web XML, các công cụ tìm kiếm chỉ giới hạn trong việc lập chỉ mục nội dung mà họ có thể tìm thấy bằng cách theo dõi các liên kết. Đó vẫn là một tính năng quan trọng đối với bot công cụ tìm kiếm, nhưng sơ đồ trang web XML đã giúp người tạo nội dung và công cụ tìm kiếm dễ dàng cộng tác hơn."
+
 #. translators: link to plugin search console setting screen
 #: includes/modules/seo-analysis/seo-analysis-tests.php:123
 msgid "You can integrate the Google Search Console with Rank math in the <a href=\"%1$s\" target=\"_blank\">Search Console tab</a>. of Rank Math's General Settings menu."
@@ -7314,14 +7309,6 @@ msgstr "Google Search Console là nguồn thông tin quan trọng liên quan đ�
 #: includes/modules/seo-analysis/seo-analysis-tests.php:78
 msgid "Of course, if you don't give Rank Math a focus keyword to work with, it can't give you any useful feedback."
 msgstr "Tất nhiên, nếu bạn không cung cấp cho Rank Math một từ khóa trọng tâm để làm việc, nó sẽ không thể cung cấp cho bạn bất kỳ phản hồi hữu ích nào."
-
-#: includes/modules/seo-analysis/seo-analysis-tests.php:135
-msgid "If you don't have an XML sitemap, the best option is to install a plugin that creates sitemaps for you. That way you'll know the sitemap will always be up-to-date. Plugins can also automatically ping the search engines when the XML file is updated. The Rank Math WordPress plugin gives you complete control over your site's XML sitemaps. You can control the settings for each page as you write or edit it, and Rank Math will ping Google as soon as you submit your edits. This results in fast crawls and indexing."
-msgstr "Nếu bạn không có sơ đồ trang web XML, tùy chọn tốt nhất là cài đặt plugin tạo sơ đồ trang web cho bạn. Bằng cách đó, bạn sẽ biết sơ đồ trang web luôn được cập nhật. Plugin cũng có thể tự động ping các công cụ tìm kiếm khi tệp XML được cập nhật. Plugin Rank Math WordPress cung cấp cho bạn toàn quyền kiểm soát sơ đồ trang web XML của trang web. Bạn có thể kiểm soát cài đặt cho mỗi trang khi bạn viết hoặc chỉnh sửa nó và Rank Math sẽ ping Google ngay khi bạn gửi chỉnh sửa của mình. Điều này dẫn đến việc thu thập dữ liệu và lập chỉ mục nhanh chóng."
-
-#: includes/modules/seo-analysis/seo-analysis-tests.php:134
-msgid "XML sitemaps are a special type of text file that tells search engines about the structure of your site. They're a list of all the resources (pages and files) you would like the search engine to index. You can assign different priorities, so certain pages will be crawled first. Before XML sitemaps, search engines were limited to indexing the content they could find by following links. That's still an important feature for search engine spiders, but XML sitemaps have made it easier for content creators and search engines to collaborate."
-msgstr "Sơ đồ trang web XML là một loại tệp văn bản đặc biệt cho các công cụ tìm kiếm biết về cấu trúc trang web của bạn. Chúng là danh sách tất cả các tài nguyên (trang và tệp) mà bạn muốn công cụ tìm kiếm lập chỉ mục. Bạn có thể gán các mức độ ưu tiên khác nhau, vì vậy một số trang nhất định sẽ được thu thập dữ liệu trước. Trước sơ đồ trang web XML, các công cụ tìm kiếm chỉ giới hạn trong việc lập chỉ mục nội dung mà họ có thể tìm thấy bằng cách theo dõi các liên kết. Đó vẫn là một tính năng quan trọng đối với bot công cụ tìm kiếm, nhưng sơ đồ trang web XML đã giúp người tạo nội dung và công cụ tìm kiếm dễ dàng cộng tác hơn."
 
 #: includes/modules/seo-analysis/seo-analysis-tests.php:77
 msgid "Rank Math uses these focus keywords to analyze your on-page content.  It can tell if you've done a good job of optimizing your text to rank for these keywords."
@@ -7345,6 +7332,10 @@ msgstr "Khẩu hiệu là lựa chọn thứ hai.  Chọn một khẩu hiệu t�
 #: includes/modules/seo-analysis/seo-analysis-tests.php:37
 msgid "Changing your tagline is very easy.  Just head on over to <a target=\"_blank\" href=\"%1$s\">Settings - General</a> in WordPress's admin menu (on the left), or click on the link in this sentence."
 msgstr "Thay đổi khẩu hiệu của bạn rất dễ dàng.  Chỉ cần truy cập vào <a target=\"_blank\" href=\"%1$s\">Cài đặt - Chung</a> trong menu quản trị của WordPress (bên trái) hoặc nhấp vào liên kết trong câu này."
+
+#: includes/modules/seo-analysis/seo-analysis-tests.php:35
+msgid "Unfortunately, the standard WordPress tagline is \"Just Another WordPress site.\"  That's pretty sloppy looking, and it does nothing for your SEO.  In fact, it's actually a security risk - it makes it easy for hackers with a WordPress exploit to locate your site with an automated search."
+msgstr "Thật không may, khẩu hiệu WordPress tiêu chuẩn là \"Chỉ là một trang web WordPress khác.\"  Điều đó trông khá cẩu thả và không làm gì cho SEO của bạn.  Trên thực tế, nó thực sự là một rủi ro bảo mật - nó giúp tin tặc dễ dàng khai thác WordPress để định vị trang web của bạn bằng tìm kiếm tự động."
 
 #: includes/modules/seo-analysis/seo-analysis-tests.php:31
 msgid "Site Tagline"
@@ -7381,10 +7372,6 @@ msgstr "Bài kiểm tra thất bại"
 #: includes/modules/seo-analysis/views/graphs.php:40
 msgid "Passed Tests"
 msgstr "Bài kiểm tra thành công"
-
-#: includes/modules/seo-analysis/seo-analysis-tests.php:35
-msgid "Unfortunately, the standard WordPress tagline is \"Just Another WordPress site.\"  That's pretty sloppy looking, and it does nothing for your SEO.  In fact, it's actually a security risk - it makes it easy for hackers with a WordPress exploit to locate your site with an automated search."
-msgstr "Thật không may, khẩu hiệu WordPress tiêu chuẩn là \"Chỉ là một trang web WordPress khác.\"  Điều đó trông khá cẩu thả và không làm gì cho SEO của bạn.  Trên thực tế, nó thực sự là một rủi ro bảo mật - nó giúp tin tặc dễ dàng khai thác WordPress để định vị trang web của bạn bằng tìm kiếm tự động."
 
 #: includes/modules/seo-analysis/class-seo-analysis.php:76
 msgid "SEO Analysis for this page"
@@ -7549,10 +7536,6 @@ msgstr "Gỡ lỗi chuyển hướng"
 msgid "Using a 302 <em>temporary</em> redirection is useful when you want to test a new page for client feedback temporarily without affecting the SEO scores of the original page."
 msgstr "Sử dụng chuyển hướng <em>tạm thời</em> 302 rất hữu ích khi bạn muốn kiểm tra trang mới để nhận phản hồi của khách hàng tạm thời mà không ảnh hưởng đến điểm SEO của trang gốc."
 
-#: includes/modules/redirections/views/help-tab-overview.php:16
-msgid "301 redirections are <em>permanent</em>. The old URL will be removed in search engines and replaced by the new one, passing on SearchRank and other SEO scores. Browsers may also store the new URL in cache and redirect to it even after the redirection is deleted from the list here."
-msgstr "Chuyển hướng 301 là <em>vĩnh viễn</em>. URL cũ sẽ bị xóa trong các công cụ tìm kiếm và được thay thế bằng URL mới, chuyển Xếp hạng tìm kiếm và các điểm SEO khác. Trình duyệt cũng có thể lưu trữ URL mới trong bộ nhớ cache và chuyển hướng đến URL đó ngay cả sau khi chuyển hướng bị xóa khỏi danh sách ở đây."
-
 #: includes/modules/redirections/views/help-tab-overview.php:13
 msgid "Here you can set up custom redirections. It is important to choose the right type of redirection."
 msgstr "Tại đây, bạn có thể thiết lập chuyển hướng tùy chỉnh. Điều quan trọng là chọn đúng loại chuyển hướng."
@@ -7568,6 +7551,10 @@ msgstr "<strong>Xóa</strong> vĩnh viễn chuyển hướng."
 #: includes/modules/redirections/views/help-tab-actions.php:17
 msgid "<strong>Activate/Deactivate</strong> redirections. Deactivated redirections do not take effect on your site."
 msgstr "<strong>Kích hoạt / Hủy kích hoạt</strong> chuyển hướng. Chuyển hướng bị hủy kích hoạt không có hiệu lực trên trang web của bạn."
+
+#: includes/modules/redirections/views/help-tab-overview.php:16
+msgid "301 redirections are <em>permanent</em>. The old URL will be removed in search engines and replaced by the new one, passing on SearchRank and other SEO scores. Browsers may also store the new URL in cache and redirect to it even after the redirection is deleted from the list here."
+msgstr "Chuyển hướng 301 là <em>vĩnh viễn</em>. URL cũ sẽ bị xóa trong các công cụ tìm kiếm và được thay thế bằng URL mới, chuyển Xếp hạng tìm kiếm và các điểm SEO khác. Trình duyệt cũng có thể lưu trữ URL mới trong bộ nhớ cache và chuyển hướng đến URL đó ngay cả sau khi chuyển hướng bị xóa khỏi danh sách ở đây."
 
 #: includes/modules/redirections/views/help-tab-actions.php:16
 msgid "<strong>Edit</strong> redirection details: from/to URLs and the redirection type."
@@ -8133,14 +8120,6 @@ msgstr "Giờ hiện tại"
 msgid "Page number with context (i.e. page 2 of 4). Only displayed on page 2 and above."
 msgstr "Số trang có ngữ cảnh (ví dụ: trang 2 trong số 4). Chỉ hiển thị trên trang 2 trở lên."
 
-#: includes/admin/class-post-columns.php:239
-#: includes/replace-variables/class-advanced-variables.php:44
-#: assets/admin/js/rank-math-app.js:1
-#: includes/modules/content-ai/assets/js/content-ai-page.js:1
-#: includes/modules/content-ai/assets/js/content-ai.js:1
-msgid "Focus Keyword"
-msgstr "Từ khóa tập trung"
-
 #: includes/replace-variables/class-advanced-variables.php:33
 msgid "ID of the current post/page"
 msgstr "ID của bài viết/trang hiện tại"
@@ -8311,10 +8290,6 @@ msgstr "Cài đặt SEO cho Lưu trữ Ngày"
 #: includes/admin/class-admin-bar-menu.php:220
 msgid "Homepage SEO"
 msgstr "SEO Trang chủ"
-
-#: includes/admin/class-admin-bar-menu.php:175
-msgid "Rank Math Dashboard"
-msgstr "Bảng điều khiển Rank Math"
 
 #. translators: deactivation link
 #: includes/admin/watcher/class-watcher.php:159
@@ -8546,21 +8521,6 @@ msgstr "Không thể thực hiện hành động này vào lúc này."
 #: includes/admin/importers/abstract-importer.php:151
 msgid "Import meta information like titles, descriptions, focus keyword, robots meta, etc., of your author archive pages."
 msgstr "Nhập thông tin meta như tiêu đề, mô tả, từ khóa chính, robots meta, v.v. của các trang lưu trữ tác giả của bạn."
-
-#: includes/admin/importers/abstract-importer.php:151
-#: includes/admin/importers/class-aioseo.php:69
-msgid "Import Author Meta"
-msgstr "Nhập Meta Tác Giả"
-
-#: includes/admin/importers/abstract-importer.php:150
-#: includes/admin/importers/class-aioseo.php:73
-msgid "Import Term Meta"
-msgstr "Nhập Meta Thuật Ngữ"
-
-#: includes/admin/importers/abstract-importer.php:149
-#: includes/admin/importers/class-aioseo.php:68
-msgid "Import Post Meta"
-msgstr "Nhập Meta Bài Viết"
 
 #: includes/admin/importers/abstract-importer.php:148
 msgid "Import plugin settings, global meta, sitemap settings, etc."
@@ -9094,15 +9054,45 @@ msgstr "Phân tích"
 msgid "As Pillar Content"
 msgstr "Dưới dạng nội dung cốt lõi"
 
-#: includes/admin/metabox/class-taxonomy-screen.php:130
-#: includes/modules/local-seo/views/titles-options.php:64
-#: includes/settings/general/rss-vars-table.php:20
-#: includes/settings/titles/post-types.php:191
+#: includes/admin/importers/abstract-importer.php:149
+#: includes/admin/importers/class-aioseo.php:68
+msgid "Import Post Meta"
+msgstr "Nhập Meta bài viết"
+
+#: includes/admin/importers/abstract-importer.php:151
+#: includes/admin/importers/class-aioseo.php:69
+msgid "Import Author Meta"
+msgstr "Nhập Meta tác giả"
+
+#: includes/settings/titles/homepage.php:67
+#: includes/settings/titles/homepage.php:82
+msgid "Homepage Robots Meta"
+msgstr "Meta Robots trang chủ"
+
+#: includes/admin/importers/abstract-importer.php:150
+#: includes/admin/importers/class-aioseo.php:73
+msgid "Import Term Meta"
+msgstr "Nhập Meta thuật ngữ"
+
+#: includes/admin/class-admin-bar-menu.php:175
+msgid "Rank Math Dashboard"
+msgstr "Bảng tổng quan Rank Math"
+
+#: includes/module/class-manager.php:235
+msgid "Connect Rank Math with Google Search Console to see the most important information from Google directly in your WordPress dashboard."
+msgstr "Kết nối Rank Math với Google Search Console để xem thông tin quan trọng nhất từ ​​Google trực tiếp trong bảng tin WordPress của bạn."
+
+#: includes/admin/class-post-columns.php:239
+#: includes/replace-variables/class-advanced-variables.php:44
 #: assets/admin/js/rank-math-app.js:1
-#: includes/modules/schema/assets/js/schema-gutenberg.js:1
-#: includes/modules/schema/assets/js/schema-template.js:1
-msgid "Description"
-msgstr "Mô tả"
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
+#: includes/modules/content-ai/assets/js/content-ai.js:1
+msgid "Focus Keyword"
+msgstr "Từ khóa chính"
+
+#: includes/replace-variables/class-advanced-variables.php:45
+msgid "Focus Keyword of the current post"
+msgstr "Từ khoá chính của bài viết hiện tại"
 
 #: includes/admin/class-import-export.php:217
 msgid "Action not allowed."
@@ -9129,13 +9119,6 @@ msgstr "Cảm ơn bạn đã sử dụng <a href=\"%s\" target=\"_blank\">Rank M
 #: includes/admin/class-assets.php:201
 msgid "Update"
 msgstr "Cập nhật"
-
-#: includes/admin/class-post-columns.php:145 assets/admin/js/rank-math-app.js:1
-#: includes/modules/analytics/assets/js/stats.js:1
-#: includes/modules/schema/assets/js/schema-gutenberg.js:1
-#: includes/modules/schema/assets/js/schema-template.js:1
-msgid "Title"
-msgstr "Tiêu đề"
 
 #: includes/modules/schema/shortcode/service.php:27
 #: includes/modules/schema/shortcode/softwareapplication.php:20
@@ -9298,15 +9281,6 @@ msgstr "Trợ giúp &amp; hỗ trợ"
 msgid "Import &amp; Export"
 msgstr "Nhập &amp; xuất"
 
-#: includes/admin/class-admin-bar-menu.php:183
-#: includes/admin/class-admin-bar-menu.php:185
-#: includes/admin/class-admin-breadcrumbs.php:32
-#: includes/admin/class-admin-menu.php:106
-#: includes/modules/version-control/class-version-control.php:235
-#: includes/modules/analytics/assets/js/stats.js:1
-msgid "Dashboard"
-msgstr "Bảng điều khiển"
-
 #: includes/admin/class-registration.php:71
 #: includes/admin/wizard/views/content.php:42
 #: includes/admin/wizard/views/ready.php:68
@@ -9373,10 +9347,6 @@ msgstr "Văn bản Thay thế"
 msgid "SEO Desc"
 msgstr "Mô tả SEO"
 
-#: includes/admin/class-post-filters.php:172
-msgid "Focus Keyword Not Set"
-msgstr "Chưa đặt Từ khóa tập trung"
-
 #: includes/admin/class-post-filters.php:171
 msgid "SEO Score: Bad"
 msgstr "Điểm SEO: Xấu"
@@ -9409,11 +9379,6 @@ msgstr "Biến $id là bắt buộc"
 #: includes/admin/class-admin-header.php:81
 msgid "Search Options"
 msgstr "Tùy chọn Tìm kiếm"
-
-#: includes/modules/sitemap/class-admin.php:83
-#: assets/admin/js/rank-math-app.js:1
-msgid "General"
-msgstr "Chung"
 
 #: includes/admin/metabox/class-metabox.php:247
 msgid "Click on the button to copy URL or insert link in content. You can also drag and drop links in the post content."
@@ -9561,3 +9526,38 @@ msgstr "Nội dung cốt lõi"
 #: includes/admin/metabox/class-metabox.php:256
 msgid "We can't show any link suggestions for this post. Try selecting categories and tags for this post, and mark other posts as Pillar Content to make them show up here."
 msgstr "Chúng tôi không thể hiển thị bất kỳ đề xuất liên kết nào cho bài viết này. Hãy thử chọn danh mục và thẻ cho bài viết này và đánh dấu các bài viết khác là nội dung cốt lõi để chúng hiển thị ở đây."
+
+#: includes/admin/class-admin-bar-menu.php:183
+#: includes/admin/class-admin-bar-menu.php:185
+#: includes/admin/class-admin-breadcrumbs.php:32
+#: includes/admin/class-admin-menu.php:106
+#: includes/modules/version-control/class-version-control.php:235
+#: includes/modules/analytics/assets/js/stats.js:1
+msgid "Dashboard"
+msgstr "Bảng tổng quan"
+
+#: includes/admin/class-post-filters.php:172
+msgid "Focus Keyword Not Set"
+msgstr "Chưa đặt từ khoá chính"
+
+#: includes/modules/sitemap/class-admin.php:83
+#: assets/admin/js/rank-math-app.js:1
+msgid "General"
+msgstr "Tổng quan"
+
+#: includes/admin/class-post-columns.php:145 assets/admin/js/rank-math-app.js:1
+#: includes/modules/analytics/assets/js/stats.js:1
+#: includes/modules/schema/assets/js/schema-gutenberg.js:1
+#: includes/modules/schema/assets/js/schema-template.js:1
+msgid "Title"
+msgstr "Tiêu đề SEO"
+
+#: includes/admin/metabox/class-taxonomy-screen.php:130
+#: includes/modules/local-seo/views/titles-options.php:64
+#: includes/settings/general/rss-vars-table.php:20
+#: includes/settings/titles/post-types.php:191
+#: assets/admin/js/rank-math-app.js:1
+#: includes/modules/schema/assets/js/schema-gutenberg.js:1
+#: includes/modules/schema/assets/js/schema-template.js:1
+msgid "Description"
+msgstr "Thẻ mô tả"
