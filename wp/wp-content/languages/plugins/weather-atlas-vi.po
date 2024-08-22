@@ -1,0 +1,508 @@
+# Translation of Plugins - Weather Atlas Widget - Development (trunk) in Vietnamese
+# This file is distributed under the same license as the Plugins - Weather Atlas Widget - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-12-25 16:34:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Plugins - Weather Atlas Widget - Development (trunk)\n"
+
+#: languages/language_conditions.en.php:18
+msgid "A Flurry"
+msgstr "Tuyết nhẹ"
+
+#: languages/language_conditions.en.php:19
+msgid "A Shower"
+msgstr "Cơn mưa rào"
+
+#: languages/language_conditions.en.php:76
+msgid "Clouds and Sun"
+msgstr "Mây và nắng"
+
+#: languages/language_conditions.en.php:81
+msgid "Dense Fog"
+msgstr "Sương mù dày đặc"
+
+#: languages/language_conditions.en.php:90
+msgid "Drizzle and Rain"
+msgstr "Mưa phùn và mưa"
+
+#: languages/language_conditions.en.php:91
+msgid "Drizzle and Sleet"
+msgstr "Mưa phùn và mưa tuyết"
+
+#: languages/language_conditions.en.php:92
+msgid "Drizzle and Snow"
+msgstr "Mưa phùn và tuyết"
+
+#: languages/language_conditions.en.php:96
+msgid "Dust Storm"
+msgstr "Bão cát"
+
+#: languages/language_conditions.en.php:100
+msgid "Dusty"
+msgstr "Bụi mù"
+
+#: languages/language_conditions.en.php:129
+msgid "Ground Fog"
+msgstr "Sương mù sát mặt đất"
+
+#: languages/language_conditions.en.php:134
+msgid "Hazy Clouds"
+msgstr "Mây mù"
+
+#: languages/language_conditions.en.php:135
+msgid "Hazy Sunshine"
+msgstr "Nắng có sương mờ"
+
+#: languages/language_conditions.en.php:144
+msgid "Heavy Haze"
+msgstr "Sương mờ dày đặc"
+
+#: languages/language_conditions.en.php:151
+msgid "Heavy Rain to Rainstorm"
+msgstr "Mưa lớn đến mưa bão"
+
+#: languages/language_conditions.en.php:154
+msgid "Heavy Rainstorm"
+msgstr "Mưa rào nặng hạt"
+
+#: languages/language_conditions.en.php:153
+msgid "Heavy Rainstorm to Severe Rainstorm"
+msgstr "Mưa bão lớn đến mưa bão dữ dội"
+
+#: languages/language_conditions.en.php:157
+msgid "Heavy Sleet"
+msgstr "Mưa tuyết dày"
+
+#: languages/language_conditions.en.php:164
+msgid "Heavy Snow to Snow Storm"
+msgstr "Tuyết rơi dày đến bão tuyết"
+
+#: languages/language_conditions.en.php:224
+msgid "Light Snow and Fog"
+msgstr "Tuyết rơi nhẹ và sương mù"
+
+#: languages/language_conditions.en.php:239
+msgid "Light to Moderate Rain"
+msgstr "Mưa nhỏ đến mưa vừa"
+
+#: languages/language_conditions.en.php:240
+msgid "Light to Moderate Snow"
+msgstr "Tuyết rơi nhẹ đến vừa"
+
+#: languages/language_conditions.en.php:254
+msgid "Moderate Haze"
+msgstr "Sương mờ vừa phải"
+
+#: languages/language_conditions.en.php:255
+msgid "Moderate Rain"
+msgstr "Mưa vừa"
+
+#: languages/language_conditions.en.php:256
+msgid "Moderate Snow"
+msgstr "Tuyết rơi vừa"
+
+#: languages/language_conditions.en.php:257
+msgid "Moderate to Heavy Rain"
+msgstr "Mưa vừa đến mưa to"
+
+#: languages/language_conditions.en.php:258
+msgid "Moderate to Heavy Snow"
+msgstr "Tuyết rơi vừa đến tuyết rơi dày"
+
+#: languages/language_conditions.en.php:270
+msgid "Partly Sunny"
+msgstr "Nắng nhẹ"
+
+#: languages/language_conditions.en.php:333
+msgid "Rain and Drizzle"
+msgstr "Mưa và mưa phùn"
+
+#: languages/language_conditions.en.php:351
+msgid "Rainstorm"
+msgstr "Mưa rào"
+
+#: languages/language_conditions.en.php:350
+msgid "Rainstorm to Heavy Rainstorm"
+msgstr "Mưa bão đến mưa bão lớn"
+
+#: languages/language_conditions.en.php:368
+msgid "Severe Fog"
+msgstr "Sương mù mù mịt"
+
+#: languages/language_conditions.en.php:369
+msgid "Severe Haze"
+msgstr "Sương mờ mù mịt"
+
+#: languages/language_conditions.en.php:370
+msgid "Severe Rainstorm"
+msgstr "Mưa giông"
+
+#: languages/language_conditions.en.php:373
+msgid "Shower"
+msgstr "Cơn mưa rào"
+
+#: languages/language_conditions.en.php:382
+msgid "Sleet and Drizzle"
+msgstr "Mưa tuyết và mưa phùn"
+
+#: languages/language_conditions.en.php:383
+msgid "Sleet and Rain"
+msgstr "Mưa tuyết và mưa"
+
+#: languages/language_conditions.en.php:384
+msgid "Sleet and Snow"
+msgstr "Mưa tuyết và tuyết"
+
+#: languages/language_conditions.en.php:415
+msgid "Snow Storm"
+msgstr "Bão tuyết"
+
+#: languages/language_conditions.en.php:395
+msgid "Snow and Drizzle"
+msgstr "Tuyết và mưa phùn"
+
+#: languages/language_conditions.en.php:396
+msgid "Snow and Fog"
+msgstr "Tuyết và sương mù"
+
+#: languages/language_conditions.en.php:397
+msgid "Snow and Rain"
+msgstr "Tuyết và mưa"
+
+#: languages/language_conditions.en.php:422
+msgid "Snow with Thunder"
+msgstr "Tuyết kèm theo sấm sét"
+
+#: languages/language_conditions.en.php:424
+msgid "Some Clouds"
+msgstr "Một chút mây"
+
+#: languages/language_conditions.en.php:429
+msgid "Strong Fog"
+msgstr "Sương mù dày đặc"
+
+#: languages/language_conditions.en.php:437
+msgid "Thunder and Drizzle"
+msgstr "Sấm sét và mưa phùn"
+
+#: languages/language_conditions.en.php:440
+msgid "Thunder and Rain"
+msgstr "Sấm sét và mưa"
+
+#: languages/language_conditions.en.php:447
+msgid "Thundershower"
+msgstr "Mưa rào có sấm"
+
+#: languages/language_conditions.en.php:446
+msgid "Thundershower with Hail"
+msgstr "Mưa rào có sấm kèm theo mưa đá"
+
+#: languages/language_conditions.en.php:479
+msgid "Wintry Precipitation"
+msgstr "Mưa tuyết"
+
+#: languages/language_conditions.en.php:62
+msgid "Blowing Dust"
+msgstr "Bụi thổi mạnh"
+
+#: languages/language_conditions.en.php:65
+msgid "Blowing Sand"
+msgstr "Khói bụi"
+
+#: languages/language_conditions.en.php:69
+msgid "Blowing Snow"
+msgstr "Tuyết thổi mạnh"
+
+#: languages/language_conditions.en.php:75
+msgid "Clear"
+msgstr "Trời quang"
+
+#: languages/language_conditions.en.php:80
+msgid "Cloudy"
+msgstr "Có mây"
+
+#: languages/language_conditions.en.php:95
+msgid "Drizzle"
+msgstr "Mưa phùn"
+
+#: languages/language_conditions.en.php:108
+msgid "Flurries"
+msgstr "Tuyết nhẹ"
+
+#: languages/language_conditions.en.php:118
+msgid "Fog"
+msgstr "Sương mù"
+
+#: languages/language_conditions.en.php:120
+msgid "Foggy"
+msgstr "Có sương mù"
+
+#: languages/language_conditions.en.php:123
+msgid "Freezing Drizzle"
+msgstr "Mưa phùn băng giá"
+
+#: languages/language_conditions.en.php:127
+msgid "Freezing Rain"
+msgstr "Mưa băng giá"
+
+#: languages/language_conditions.en.php:133
+msgid "Haze"
+msgstr "Sương mờ"
+
+#: languages/language_conditions.en.php:137
+msgid "Heavy Drizzle"
+msgstr "Mưa phùn dày"
+
+#: languages/language_conditions.en.php:140
+msgid "Heavy Fog"
+msgstr "Sương mù dày đặc"
+
+#: languages/language_conditions.en.php:141
+msgid "Heavy Freezing Drizzle"
+msgstr "Mưa phùn băng giá mạnh"
+
+#: languages/language_conditions.en.php:152
+msgid "Heavy Rain"
+msgstr "Mưa lớn"
+
+#: languages/language_conditions.en.php:149
+msgid "Heavy Rain Shower"
+msgstr "Mưa lớn"
+
+#: languages/language_conditions.en.php:166
+msgid "Heavy Snow"
+msgstr "Tuyết rơi dày"
+
+#: languages/language_conditions.en.php:162
+msgid "Heavy Snow Shower"
+msgstr "Mưa tuyết dày"
+
+#: languages/language_conditions.en.php:165
+msgid "Heavy Snow with Thunder"
+msgstr "Tuyết rơi dày kèm theo sấm sét"
+
+#: languages/language_conditions.en.php:168
+msgid "Heavy Thunderstorm"
+msgstr "Mưa dông lớn"
+
+#: languages/language_conditions.en.php:176
+msgid "Ice Crystals"
+msgstr "Tinh thể băng"
+
+#: languages/language_conditions.en.php:188
+msgid "Light Fog"
+msgstr "Sương mù nhẹ"
+
+#: languages/language_conditions.en.php:189
+msgid "Light Freezing Drizzle"
+msgstr "Mưa phùn băng giá nhẹ"
+
+#: languages/language_conditions.en.php:217
+msgid "Light Rain"
+msgstr "Mưa nhỏ"
+
+#: languages/language_conditions.en.php:214
+msgid "Light Rain Shower"
+msgstr "Mưa rào nhỏ"
+
+#: languages/language_conditions.en.php:219
+msgid "Light Sleet"
+msgstr "Mưa tuyết nhẹ"
+
+#: languages/language_conditions.en.php:235
+msgid "Light Snow"
+msgstr "Tuyết rơi nhẹ"
+
+#: languages/language_conditions.en.php:232
+msgid "Light Snow Shower"
+msgstr "Mưa tuyết nhẹ"
+
+#: languages/language_conditions.en.php:253
+msgid "Mist"
+msgstr "Mù sương"
+
+#: languages/language_conditions.en.php:260
+msgid "Mostly Clear"
+msgstr "Quang mây"
+
+#: languages/language_conditions.en.php:262
+msgid "Mostly Cloudy"
+msgstr "Nhiều mây"
+
+#: languages/language_conditions.en.php:264
+msgid "Mostly Sunny"
+msgstr "Nhiều nắng"
+
+#: languages/language_conditions.en.php:265
+msgid "Overcast"
+msgstr "Trời u ám"
+
+#: languages/language_conditions.en.php:269
+msgid "Partly Cloudy"
+msgstr "Ít mây"
+
+#: languages/language_conditions.en.php:349
+msgid "Rain"
+msgstr "Mưa"
+
+#: languages/language_conditions.en.php:341
+msgid "Rain Shower"
+msgstr "Mưa rào"
+
+#: languages/language_conditions.en.php:335
+msgid "Rain and Sleet"
+msgstr "Mưa và mưa tuyết"
+
+#: languages/language_conditions.en.php:337
+msgid "Rain and Snow"
+msgstr "Mưa và tuyết"
+
+#: languages/language_conditions.en.php:359
+msgid "Sandstorm"
+msgstr "Bão cát"
+
+#: languages/language_conditions.en.php:380
+msgid "Showers"
+msgstr "Mưa rào"
+
+#: languages/language_conditions.en.php:385
+msgid "Sleet"
+msgstr "Mưa tuyết"
+
+#: languages/language_conditions.en.php:423
+msgid "Snow"
+msgstr "Tuyết"
+
+#: languages/language_conditions.en.php:407
+msgid "Snow Shower"
+msgstr "Mưa tuyết"
+
+#: languages/language_conditions.en.php:399
+msgid "Snow and Sleet"
+msgstr "Tuyết và mưa tuyết"
+
+#: languages/language_conditions.en.php:433
+msgid "Sunny"
+msgstr "Nắng"
+
+#: languages/language_conditions.en.php:455
+msgid "Thunderstorm"
+msgstr "Mưa dông"
+
+#: admin/class-weather-atlas-admin.php:221
+msgid "Reviews"
+msgstr "Đánh giá"
+
+#: admin/class-weather-atlas-admin.php:220
+msgid "Support"
+msgstr "Hỗ trợ"
+
+#: includes/class-weather-atlas.php:78
+msgid "Display current conditions and weather forecast on your website."
+msgstr "Hiển thị điều kiện và dự báo thời tiết hiện tại trên trang web của bạn."
+
+#. Author URI of the plugin
+#: weather-atlas.php
+msgid "https://www.weather-atlas.com"
+msgstr "https://www.weather-atlas.com"
+
+#. Plugin URI of the plugin
+#: weather-atlas.php
+msgid "https://wordpress.org/plugins/weather-atlas/"
+msgstr "https://wordpress.org/plugins/weather-atlas/"
+
+#. Plugin Name of the plugin
+#: weather-atlas.php
+msgid "Weather Atlas Widget"
+msgstr "Weather Atlas Widget"
+
+#: admin/weather-atlas-widget.php:361 admin/weather-atlas-widget.php:364
+#: admin/weather-atlas-widget.php:367 admin/weather-atlas-widget.php:370
+msgid "days"
+msgstr "ngày"
+
+#: admin/weather-atlas-widget.php:358
+msgid "day"
+msgstr "ngày"
+
+#: admin/weather-atlas-widget.php:355
+msgid "hide daily forecast"
+msgstr "ẩn dự báo hằng ngày"
+
+#: admin/weather-atlas-widget.php:345
+msgid "Daily forecast"
+msgstr "Dự báo hằng ngày"
+
+#: admin/weather-atlas-widget.php:320 admin/weather-atlas-widget.php:323
+#: admin/weather-atlas-widget.php:326 admin/weather-atlas-widget.php:329
+msgid "hours"
+msgstr "tiếng"
+
+#: admin/weather-atlas-widget.php:317
+msgid "hour"
+msgstr "tiếng"
+
+#: admin/weather-atlas-widget.php:314
+msgid "hide hourly forecast"
+msgstr "ẩn dự báo mỗi giờ"
+
+#: admin/weather-atlas-widget.php:304
+msgid "Hourly forecast"
+msgstr "Dự báo mỗi giờ"
+
+#: admin/weather-atlas-widget.php:256
+msgid "Current conditions"
+msgstr "Các điều kiện hiện tại"
+
+#: admin/weather-atlas-widget.php:524
+msgid "Header"
+msgstr "Đầu trang"
+
+#: admin/weather-atlas-widget.php:504
+msgid "Heading"
+msgstr "Tiêu đề"
+
+#: admin/weather-atlas-widget.php:568
+msgid "Text Color"
+msgstr "Màu văn bản"
+
+#: admin/weather-atlas-widget.php:588
+msgid "Background Color"
+msgstr "Màu nền"
+
+#: admin/weather-atlas-widget.php:546
+msgid "Font size"
+msgstr "Kích thước phông chữ"
+
+#: admin/weather-atlas-widget.php:478
+msgid "Layout"
+msgstr "Bố cục"
+
+#: admin/weather-atlas-widget.php:468
+msgid "Appearance"
+msgstr "Giao diện"
+
+#: admin/weather-atlas-widget.php:651
+msgid "Language"
+msgstr "Ngôn ngữ"
+
+#: admin/weather-atlas-widget.php:628
+msgid "Units"
+msgstr "Đơn vị"
+
+#: admin/class-weather-atlas-admin.php:143
+#: admin/class-weather-atlas-admin.php:144
+#: admin/class-weather-atlas-admin.php:218 admin/weather-atlas-settings.php:51
+#: admin/weather-atlas-settings.php:77 admin/weather-atlas-widget.php:618
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: admin/weather-atlas-widget.php:195
+msgid "City"
+msgstr "Thành phố"

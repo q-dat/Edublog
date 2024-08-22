@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.6.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-08-16 14:11:36+0000\n"
+"PO-Revision-Date: 2024-08-20 03:40:30+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1142,7 +1142,7 @@ msgstr "Ghi đè mẫu"
 #: wp-includes/blocks/post-date/block.json
 msgctxt "block description"
 msgid "Display the publish date for an entry such as a post or page."
-msgstr "Hiển thị ngày xuất bản cho một mục như một bài viết hoặc trang."
+msgstr "Hiển thị ngày đăng cho một mục như một bài viết hoặc trang."
 
 #: wp-includes/blocks/post-date/block.json
 msgctxt "block title"
@@ -1567,11 +1567,11 @@ msgstr "Mẫu đã được hoàn nguyên về bản nháp."
 
 #: wp-includes/post.php:301
 msgid "Pattern published privately."
-msgstr "Mẫu đã được xuất bản một cách riêng tư."
+msgstr "Mẫu đã được đăng một cách riêng tư."
 
 #: wp-includes/post.php:300
 msgid "Pattern published."
-msgstr "Mẫu đã được xuất bản."
+msgstr "Mẫu đã được đăng."
 
 #: wp-includes/post.php:298
 msgid "Patterns list navigation"
@@ -1621,7 +1621,7 @@ msgstr "Mẫu"
 #: wp-includes/post.php:285
 msgctxt "post type general name"
 msgid "Patterns"
-msgstr "Mẫu"
+msgstr "Mẫu khối"
 
 #: wp-includes/media.php:2087 wp-includes/media.php:5833
 msgid "An image should not be lazy-loaded and marked as high priority at the same time."
@@ -1747,7 +1747,7 @@ msgstr "Chung"
 #: wp-includes/block-editor.php:52
 msgctxt "block category"
 msgid "Patterns"
-msgstr "Mẫu"
+msgstr "Mẫu khối"
 
 #: wp-includes/admin-bar.php:1134
 #: wp-admin/includes/class-custom-image-header.php:77
@@ -3490,7 +3490,7 @@ msgstr "Style chung được bao gồm trong giao diện."
 #: wp-includes/post.php:479
 msgctxt "post type general name"
 msgid "Global Styles"
-msgstr "Style chung"
+msgstr "Kiểu hiểu thị toàn website"
 
 #: wp-includes/post.php:436
 msgid "Template parts to include in your templates."
@@ -3806,7 +3806,7 @@ msgstr "GUID cho bài viết, như đã tồn tại trong cơ sở dữ liệu."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2256
 msgid "The date the post was published, in the site's timezone."
-msgstr "Ngày bài viết được xuất bản, theo múi giờ của trang web."
+msgstr "Ngày bài viết được đăng, theo múi giờ của trang web."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1483
 msgid "The ID for the parent of the comment."
@@ -3814,7 +3814,7 @@ msgstr "ID cha của bình luận."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1464
 msgid "The date the comment was published, in the site's timezone."
-msgstr "Ngày bình luận được xuất bản, theo múi giờ của trang web."
+msgstr "Ngày bình luận được đăng, theo múi giờ của trang web."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1456
 msgid "HTML content for the comment, transformed for display."
@@ -6375,11 +6375,11 @@ msgstr "Tài khoản WordPress.org của tác giả khối."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:266
 msgid "The number of blocks published by the same author."
-msgstr "Số lượng các khối được xuất bản bởi cùng tác giả."
+msgstr "Số lượng các khối được đăng bởi cùng tác giả."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:261
 msgid "The average rating of blocks published by the same author."
-msgstr "Xếp hạng trung bình của các khối được xuất bản bởi cùng tác giả."
+msgstr "Xếp hạng trung bình của các khối được đăng bởi cùng tác giả."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:256
 msgid "The number sites that have activated this block."
@@ -8408,7 +8408,7 @@ msgstr "Người dùng hiện tại này có thể đính bài viết nổi bậ
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2695
 msgid "The current user can publish this post."
-msgstr "Người dùng hiện tại có thể xuất bản bài viết này."
+msgstr "Người dùng hiện tại có thể đăng bài viết này."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1407
 #: wp-admin/includes/ms.php:45
@@ -9092,7 +9092,7 @@ msgstr "&larr; Đi đến Danh mục liên kết"
 
 #: wp-includes/script-loader.php:1328
 msgid "Sorry, you cannot preview new themes when you have changes scheduled or saved as a draft. Please publish your changes, or wait until they publish to preview new themes."
-msgstr "Xin lỗi, bạn không thể xem trước các chủ đề mới khi bạn có các thay đổi đã lên lịch hoặc đã lưu dưới dạng bản nháp. Vui lòng xuất bản các thay đổi của bạn, hoặc đợi cho đến khi chúng được xuất bản để xem trước các chủ đề mới."
+msgstr "Xin lỗi, bạn không thể xem trước các giao diện mới khi bạn có các thay đổi đã lên lịch hoặc đã lưu dưới dạng bản nháp. Vui lòng xuất bản các thay đổi của bạn, hoặc đợi cho đến khi chúng được đăng để xem trước các giao diện mới."
 
 #: wp-includes/script-loader.php:1327
 msgid "Schedule your customization changes to publish (\"go live\") at a future date."
@@ -10379,7 +10379,7 @@ msgstr "Ngôn ngữ cho người sử dụng"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1414
 msgid "Author URL of the user."
-msgstr "URL tới trang xuất bản của người dùng."
+msgstr "URL tới trang đăng của người dùng."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1409
 msgid "Description of the user."
@@ -11140,7 +11140,7 @@ msgstr "Mô tả HTML cho tài nguyên."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1026
 msgid "Number of published posts for the term."
-msgstr "Số bài viết được xuất bản cho tài nguyên."
+msgstr "Số bài viết được đăng cho tài nguyên."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:83
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1357
@@ -11519,7 +11519,7 @@ msgstr "Chắc chắn kết quả loại trừ những ID cố định."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2851
 msgid "Limit response to posts published before a given ISO8601 compliant date."
-msgstr "Giới hạn response chỉ bao gồm những bài viết được xuất bản trước một ngày tháng (định dạng ISO8601) cụ thể."
+msgstr "Giới hạn phản hồi chỉ cho các bài viết được đăng trước một ngày theo định dạng ISO8601."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1578
 msgid "Limit result set to that from a specific author email. Requires authorization."
@@ -11535,7 +11535,7 @@ msgstr "Giới hạn kết quả chỉ gồm những bình luận của một s�
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2820
 msgid "Limit response to posts published after a given ISO8601 compliant date."
-msgstr "Giới hạn response trả về chỉ gồm bài viết xuất bản sau một ngày (định dạng ISO8601) cụ thể."
+msgstr "Giới hạn phản hồi chỉ cho các bài viết được đăng sau một ngày theo định dạng ISO8601."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1527
 msgid "Avatar URLs for the comment author."
@@ -12501,7 +12501,7 @@ msgstr "Lên kế hoạch"
 #: wp-includes/post.php:643
 msgctxt "post status"
 msgid "Published"
-msgstr "Đã xuất bản"
+msgstr "Đã đăng"
 
 #: wp-includes/post-template.php:1774
 msgctxt "post password form"
@@ -13718,7 +13718,7 @@ msgstr[0] "Chủ đề của bạn có %s vị trí trình đơn. Chọn trình 
 
 #: wp-includes/class-wp-customize-nav-menus.php:655
 msgid "This panel is used for managing navigation menus for content you have already published on your site. You can create menus and add items for existing content such as pages, posts, categories, tags, formats, or custom links."
-msgstr "Bảng điều khiển này được sử dụng để quản lý các Menu cho nội dung mà bạn đã xuất bản trên website. Bạn có thể tạo các Menu và thêm các mục cho nội dung hiện có như các trang, bài viết, danh mục, tag, định dạng, hoặc liên kết riêng."
+msgstr "Bảng điều khiển này được sử dụng để quản lý các menu cho nội dung mà bạn đã đăng trên trang web. Bạn có thể tạo các menu và thêm các mục cho nội dung hiện có như các trang, bài viết, danh mục, tag, định dạng, hoặc liên kết riêng."
 
 #. translators: %s: Previous item name.
 #: wp-includes/class-wp-customize-nav-menus.php:564 wp-admin/nav-menus.php:582
@@ -14720,7 +14720,7 @@ msgstr "Tìm kiếm tiện ích"
 
 #: wp-includes/class-wp-customize-widgets.php:802
 msgid "Save and preview changes before publishing them."
-msgstr "Lưu và xem trước những thay đổi trước khi xuất bản chúng."
+msgstr "Lưu và xem trước những thay đổi trước khi đăng chúng."
 
 #: wp-includes/class-wp-customize-widgets.php:730
 msgctxt "Move widget"
@@ -14793,7 +14793,7 @@ msgstr "Hiển thị các khối"
 #: wp-includes/class-wp-editor.php:1356
 msgctxt "TinyMCE"
 msgid "Templates"
-msgstr "Các mẫu"
+msgstr "Mẫu trang"
 
 #: wp-includes/class-wp-editor.php:1355
 msgctxt "TinyMCE"
@@ -18387,7 +18387,7 @@ msgstr[0] "Đã lên lịch <span class=\"count\">(%s)</span>"
 #: wp-includes/post.php:647
 msgid "Published <span class=\"count\">(%s)</span>"
 msgid_plural "Published <span class=\"count\">(%s)</span>"
-msgstr[0] "Đã xuất bản <span class=\"count\">(%s)</span>"
+msgstr[0] "Đã đăng <span class=\"count\">(%s)</span>"
 
 #: wp-includes/post.php:112
 msgid "Revision"
@@ -20980,7 +20980,7 @@ msgstr "Chờ duyệt"
 #: wp-admin/includes/meta-boxes.php:112 wp-admin/includes/meta-boxes.php:152
 #: wp-admin/js/post.js:838
 msgid "Published"
-msgstr "Đã xuất bản"
+msgstr "Đã đăng"
 
 #: wp-includes/class-wp-editor.php:1214 wp-includes/media-template.php:523
 #: wp-includes/media-template.php:771 wp-includes/option.php:2662
