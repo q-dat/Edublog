@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WP Mail SMTP by WPForms &#8211; The Most Popular SMTP and Email Log Plugin - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-08-05 16:27:03+0000\n"
+"PO-Revision-Date: 2024-08-22 01:45:40+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -308,7 +308,7 @@ msgstr "Xóa TẤT CẢ dữ liệu WP Mail SMTP khi xóa plugin."
 
 #: src/Admin/Pages/MiscTab.php:51
 msgid "Miscellaneous"
-msgstr "Linh tinh"
+msgstr "Mục khác"
 
 #: src/Admin/Pages/LogsTab.php:147
 msgid "Email logging makes it easy to save details about all of the emails sent from your WordPress site. You can search and filter the email log to find specific messages and check the color-coded delivery status. Email logging also allows you to resend emails, save attachments, and export your logs in different formats."
@@ -706,7 +706,7 @@ msgstr "1 tuần"
 
 #: src/Admin/Pages/DebugEventsTab.php:271
 msgid "Debug events older than the selected period will be permanently deleted from the database."
-msgstr "Các sự kiện gỡ lỗi cũ hơn khoảng thời gian đã chọn sẽ bị xóa vĩnh viễn khỏi cơ sở dữ liệu."
+msgstr "Các gỡ lỗi sự kiện cũ hơn khoảng thời gian đã chọn sẽ bị xóa vĩnh viễn khỏi cơ sở dữ liệu."
 
 #: src/Admin/Pages/DebugEventsTab.php:262
 msgid "Forever"
@@ -990,7 +990,7 @@ msgstr "Truy cập <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">
 
 #: src/Admin/Pages/DebugEventsTab.php:191
 msgid "On this page, you can view different plugin debugging events and email sending errors."
-msgstr "Trên trang này, bạn có thể xem các sự kiện gỡ lỗi plugin khác nhau và lỗi gửi email."
+msgstr "Trên trang này, bạn có thể xem các gỡ lỗi sự kiện plugin khác nhau và lỗi gửi email."
 
 #: src/Admin/Pages/AboutTab.php:591 src/Admin/SetupWizard.php:872
 msgid "Could not install the plugin. Plugin is not whitelisted."
@@ -1731,7 +1731,7 @@ msgstr "Vì lý do nào đó, bảng cơ sở dữ liệu không được cài �
 
 #: src/Admin/Pages/DebugEventsTab.php:494
 msgid "Debug Events are Not Installed Correctly"
-msgstr "Sự kiện gỡ lỗi không được cài đặt chính xác"
+msgstr "Gỡ lỗi sự kiện không được cài đặt chính xác"
 
 #. translators: %1$s - Date. %2$s - Date.
 #: src/Admin/Pages/DebugEventsTab.php:455
@@ -1760,7 +1760,7 @@ msgstr[0] "Đã tìm thấy <strong>%1$s sự kiện %2$s</strong>"
 
 #: src/Admin/Pages/DebugEventsTab.php:248
 msgid "Check this if you would like to debug the email sending process. Once enabled, all debug events will be logged in the table below. This setting should only be enabled for shorter debugging periods and disabled afterwards."
-msgstr "Hãy chọn mục này nếu bạn muốn gỡ lỗi quy trình gửi email. Khi được bật, tất cả các sự kiện gỡ lỗi sẽ được ghi lại trong bảng bên dưới. Cài đặt này chỉ nên được bật trong thời gian gỡ lỗi ngắn hơn và tắt sau đó."
+msgstr "Hãy chọn mục này nếu bạn muốn gỡ lỗi quy trình gửi email. Khi được bật, tất cả các gỡ lỗi sự kiện sẽ được ghi lại trong bảng bên dưới. Cài đặt này chỉ nên được bật trong thời gian gỡ lỗi ngắn hơn và tắt sau đó."
 
 #: src/Admin/Pages/DebugEventsTab.php:245
 msgid "Debug Email Sending"
@@ -1768,7 +1768,7 @@ msgstr "Gỡ lỗi việc gửi email"
 
 #: src/Admin/Pages/DebugEventsTab.php:231
 msgid "This debug event is always enabled and will record any email sending errors in the table below."
-msgstr "Sự kiện gỡ lỗi này luôn được bật và sẽ ghi lại bất kỳ lỗi gửi email nào trong bảng bên dưới."
+msgstr "Gỡ lỗi sự kiện này luôn được bật và sẽ ghi lại bất kỳ lỗi gửi email nào trong bảng bên dưới."
 
 #: src/Admin/Pages/DebugEventsTab.php:228
 msgid "Email Sending Errors"
@@ -1780,7 +1780,7 @@ msgstr "Loại sự kiện"
 
 #: src/Admin/Pages/DebugEventsTab.php:204
 msgid "On this page, you can view and configure different plugin debugging events. View email sending errors and enable debugging events, allowing you to detect email sending issues."
-msgstr "Trên trang này, bạn có thể xem và cấu hình các sự kiện gỡ lỗi plugin khác nhau. Xem lỗi gửi email và bật các sự kiện gỡ lỗi, cho phép bạn phát hiện các sự cố gửi email."
+msgstr "Trên trang này, bạn có thể xem và cấu hình các sự kiện gỡ lỗi plugin khác nhau. Xem lỗi gửi email và bật các gỡ lỗi sự kiện, cho phép bạn phát hiện các sự cố gửi email."
 
 #: src/Admin/Pages/DebugEventsTab.php:154
 msgid "An error occurred!"
@@ -1792,12 +1792,12 @@ msgstr "Đóng"
 
 #: src/Admin/Pages/DebugEventsTab.php:148
 msgid "Are you sure you want to permanently delete all debug events?"
-msgstr "Bạn có chắc chắn muốn xóa vĩnh viễn tất cả các sự kiện gỡ lỗi không?"
+msgstr "Bạn có chắc chắn muốn xóa vĩnh viễn tất cả các gỡ lỗi sự kiện không?"
 
 #: src/Admin/Pages/DebugEventsTab.php:84 src/Admin/Pages/DebugEventsTab.php:188
 #: src/Admin/Pages/DebugEventsTab.php:201
 msgid "Debug Events"
-msgstr "Sự kiện gỡ lỗi"
+msgstr "Gỡ lỗi sự kiện"
 
 #: src/Admin/FlyoutMenu.php:118
 msgid "Suggest a Feature"
@@ -1859,7 +1859,7 @@ msgstr "Ngày"
 
 #: src/Admin/DebugEvents/Event.php:357
 msgid "Debug Event Details"
-msgstr "Chi tiết sự kiện gỡ lỗi"
+msgstr "Chi tiết gỡ lỗi sự kiện"
 
 #: src/Admin/DebugEvents/Event.php:244 src/WP.php:571
 msgid "N/A"
@@ -1876,16 +1876,16 @@ msgstr "Số lượng sự kiện mỗi trang:"
 
 #: src/Admin/DebugEvents/DebugEvents.php:157
 msgid "No Debug Event ID provided!"
-msgstr "Không có ID sự kiện gỡ lỗi nào được cung cấp!"
+msgstr "Không có ID gỡ lỗi sự kiện nào được cung cấp!"
 
 #. translators: %s - WPDB error message.
 #: src/Admin/DebugEvents/DebugEvents.php:126
 msgid "There was an issue while trying to delete all debug event entries. Error message: %s"
-msgstr "Đã xảy ra sự cố khi cố gắng xóa tất cả các mục nhập sự kiện gỡ lỗi. Thông báo lỗi: %s"
+msgstr "Đã xảy ra sự cố khi cố gắng xóa tất cả các mục nhập gỡ lỗi sự kiện. Thông báo lỗi: %s"
 
 #: src/Admin/DebugEvents/DebugEvents.php:121
 msgid "All debug event entries were deleted successfully."
-msgstr "Tất cả các mục nhập sự kiện gỡ lỗi đã được xóa thành công."
+msgstr "Tất cả các mục nhập gỡ lỗi sự kiện đã được xóa thành công."
 
 #: src/Admin/DebugEvents/DebugEvents.php:104
 #: src/Admin/DebugEvents/DebugEvents.php:147

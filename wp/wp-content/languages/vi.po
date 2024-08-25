@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.6.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-08-20 03:40:30+0000\n"
+"PO-Revision-Date: 2024-08-25 00:25:08+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -8285,7 +8285,7 @@ msgstr "Đường dẫn được tự động tạo từ tên bài viết."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2348
 msgid "Permalink template for the post."
-msgstr "Liên kết cố định mẫu cho bài viết."
+msgstr "Đường dẫn cố định mẫu cho bài viết."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:338
 msgid "Preview link for the post."
@@ -12349,7 +12349,7 @@ msgstr "Xem trước vùng cắt hình ảnh khu vực. Yêu cầu tương tác 
 #. translators: %s: Documentation URL.
 #: wp-includes/formatting.php:5067
 msgid "A structure tag is required when using custom permalinks. <a href=\"%s\">Learn more</a>"
-msgstr "Một thẻ cấu trúc là cần thiết khi sử dụng liên kết cố định tùy chỉnh. <a href=\"%s\">Tìm hiểu thêm</a>"
+msgstr "Một thẻ cấu trúc là cần thiết khi sử dụng đường dẫn cố định tùy chỉnh. <a href=\"%s\">Tìm hiểu thêm</a>"
 
 #: wp-includes/class-wp-xmlrpc-server.php:4376
 #: wp-includes/class-wp-xmlrpc-server.php:4432
@@ -17047,7 +17047,7 @@ msgstr "(Thông điệp này đã được thêm vào trong phiên bản %s.)"
 #. translators: %s: Comment URL.
 #: wp-includes/pluggable.php:1790
 msgid "Permalink: %s"
-msgstr "Liên kết cố định: %s"
+msgstr "Đường dẫn cố định: %s"
 
 #: wp-includes/post-formats.php:98
 msgctxt "Post format"

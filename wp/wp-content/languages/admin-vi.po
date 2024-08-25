@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.6.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-08-19 00:56:42+0000\n"
+"PO-Revision-Date: 2024-08-22 08:32:14+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -475,7 +475,7 @@ msgstr[0] "Mẫu %s đã được cập nhật."
 #. remove.
 #: wp-admin/edit.php:293
 msgid "When using Bulk Edit, you can change the metadata (categories, author, etc.) for all selected posts at once. To remove a post from the grouping, just click the %s<span class=\"screen-reader-text\">remove</span> button next to its name in the Bulk Edit area that appears."
-msgstr "Khi sử dụng Chỉnh sửa hàng loạt, bạn có thể thay đổi siêu dữ liệu (danh mục, tác giả, v.v.) cho tất cả các bài đăng được chọn cùng một lúc. Để loại bỏ một bài đăng khỏi nhóm, chỉ cần nhấp vào nút %s<span class=\"screen-reader-text\">remove</span> bên cạnh tên của nó trong khu vực Chỉnh sửa hàng loạt xuất hiện."
+msgstr "Khi sử dụng chỉnh sửa hàng loạt, bạn có thể thay đổi siêu dữ liệu (danh mục, tác giả, v.v.) cho tất cả các bài viết được chọn cùng một lúc. Để loại bỏ một bài viết khỏi nhóm, chỉ cần nhấp vào nút %s<span class=\"screen-reader-text\">remove</span> bên cạnh tên của nó trong khu vực chỉnh sửa hàng loạt xuất hiện."
 
 #. translators: 1: WordPress Release Notes link, 2: WordPress version number.
 #: wp-admin/about.php:252
@@ -1198,17 +1198,17 @@ msgstr "Quy tắc cấu hình cho %s:"
 #. translators: Hidden accessibility text.
 #: wp-admin/options-permalink.php:370
 msgid "Customize permalink structure by selecting available tags"
-msgstr "Tùy chỉnh cấu trúc liên kết cố định bằng cách chọn các thẻ có sẵn."
+msgstr "Tùy chỉnh cấu trúc đường dẫn cố định bằng cách chọn các thẻ có sẵn."
 
 #. translators: %s: %postname%
 #: wp-admin/options-permalink.php:322
 msgid "Select the permalink structure for your website. Including the %s tag makes links easy to understand, and can help your posts rank higher in search engines."
-msgstr "Chọn cấu trúc liên kết cố định cho trang web của bạn. Bao gồm thẻ %s sẽ làm cho các liên kết dễ hiểu hơn và có thể giúp bài viết của bạn xếp hạng cao hơn trên các công cụ tìm kiếm."
+msgstr "Chọn cấu trúc đường dẫn cố định cho trang web của bạn. Bao gồm thẻ %s sẽ làm cho các liên kết dễ hiểu hơn và có thể giúp bài viết của bạn xếp hạng cao hơn trên các công cụ tìm kiếm."
 
 #. translators: %s: Permalink structure tag.
 #: wp-admin/options-permalink.php:313
 msgid "%s removed from permalink structure"
-msgstr "%s đã được loại bỏ khỏi cấu trúc liên kết cố định."
+msgstr "%s đã được loại bỏ khỏi cấu trúc đường dẫn cố định."
 
 #. translators: %s: Number of critical Site Health checks.
 #: wp-admin/menu.php:367
@@ -1522,7 +1522,7 @@ msgstr "Một hình đại diện là một hình ảnh có thể được liên
 
 #: wp-admin/includes/post.php:1582
 msgid "Change Permalink Structure"
-msgstr "Thay đổi cấu trúc liên kết cố định"
+msgstr "Thay đổi cấu trúc đường dẫn cố định"
 
 #. translators: Do not translate USERNAME, ADMIN_URL, EMAIL, SITENAME, SITEURL:
 #. those are placeholders.
@@ -1764,7 +1764,7 @@ msgstr "Màn hình Bảo mật cho phép bạn tạo một trang chính sách b�
 
 #: wp-admin/options-discussion.php:66
 msgid "Individual posts may override these settings. Changes here will only be applied to new posts."
-msgstr "Các bài viết riêng lẻ có thể ghi đè những thiết lập này. Thay đổi ở đây sẽ chỉ áp dụng với các bài đăng mới."
+msgstr "Các bài viết riêng lẻ có thể ghi đè những thiết lập này. Thay đổi ở đây sẽ chỉ áp dụng với các bài viết mới."
 
 #: wp-admin/nav-menus.php:597
 msgid "Menu item moved to the top"
@@ -2556,7 +2556,7 @@ msgstr "Tìm hiểu cách cấu hình xác thực đầu trang."
 
 #: wp-admin/includes/class-wp-site-health.php:2363
 msgid "Flush permalinks"
-msgstr "Xóa liên kết cố định"
+msgstr "Khởi tạo lại đường dẫn cố định"
 
 #: wp-admin/includes/class-wp-site-health.php:2344
 msgid "The authorization header is invalid"
@@ -3409,7 +3409,7 @@ msgstr "Tự động cập nhật đã được bật"
 
 #: wp-admin/includes/class-wp-debug-data.php:837
 msgid "Are pretty permalinks supported?"
-msgstr "Có hỗ trợ liên kết cố định thân thiện?"
+msgstr "Có hỗ trợ đường dẫn cố định thân thiện?"
 
 #: wp-admin/includes/class-wp-debug-data.php:776
 msgid "PHP memory limit (only for admin screens)"
@@ -3679,7 +3679,7 @@ msgstr "Trang này cho phép truy cập trực tiếp vào cài đặt web của
 
 #: wp-admin/edit-form-advanced.php:380
 msgid "<strong>Format</strong> &mdash; Post Formats designate how your theme will display a specific post. For example, you could have a <em>standard</em> blog post with a title and paragraphs, or a short <em>aside</em> that omits the title and contains a short text blurb. Your theme could enable all or some of 10 possible formats. <a href=\"https://developer.wordpress.org/advanced-administration/wordpress/post-formats/#supported-formats\">Learn more about each post format</a>."
-msgstr "<strong>Định dạng</strong> &mdash; Định dạng bài đăng chỉ định cách chủ đề của bạn sẽ hiển thị một bài đăng cụ thể. Ví dụ: bạn có thể có một bài đăng blog <em>tiêu chuẩn</em> có tiêu đề và các đoạn văn hoặc một <em>bên cạnh</em> ngắn bỏ qua tiêu đề và chứa đoạn văn bản giới thiệu ngắn. Chủ đề của bạn có thể kích hoạt tất cả hoặc một số trong số 10 định dạng có thể. <a href=\"https://developer.wordpress.org/advanced-administration/wordpress/post-formats/#supported-formats\">Tìm hiểu thêm về từng định dạng bài đăng</a>."
+msgstr "<strong>Định dạng</strong> &mdash; Định dạng bài viết chỉ định cách giao diện của bạn sẽ hiển thị một bài viết cụ thể. Ví dụ: bạn có thể có một bài viết blog <em>tiêu chuẩn</em> có tiêu đề và các đoạn văn hoặc một <em>bên cạnh</em> ngắn bỏ qua tiêu đề và chứa đoạn văn bản giới thiệu ngắn. Giao diện của bạn có thể kích hoạt tất cả hoặc một số trong số 10 định dạng có thể. <a href=\"https://developer.wordpress.org/advanced-administration/wordpress/post-formats/#supported-formats\">Tìm hiểu thêm về từng định dạng bài viết</a>."
 
 #: wp-admin/edit-form-advanced.php:337
 msgid "<a href=\"https://wordpress.org/documentation/article/pages-screen/\">Documentation on Editing Pages</a>"
@@ -3724,11 +3724,11 @@ msgstr "Đang tải kết quả&hellip;"
 
 #: wp-admin/options-permalink.php:61
 msgid "<a href=\"https://wordpress.org/documentation/article/customize-permalinks/\">Documentation on Using Permalinks</a>"
-msgstr "<a href=\"https://wordpress.org/documentation/article/customize-permalinks/\">Tài liệu về cách sử dụng liên kết cố định</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/customize-permalinks/\">Tài liệu về cách sử dụng đường dẫn cố định</a>"
 
 #: wp-admin/options-permalink.php:60
 msgid "<a href=\"https://wordpress.org/documentation/article/settings-permalinks-screen/\">Documentation on Permalinks Settings</a>"
-msgstr "<a href=\"https://wordpress.org/documentation/article/settings-permalinks-screen/\">Tài liệu về cài đặt liên kết cố định</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/settings-permalinks-screen/\">Tài liệu về cài đặt đường dẫn cố định</a>"
 
 #: wp-admin/update-core.php:1053
 msgid "<a href=\"https://wordpress.org/documentation/article/dashboard-updates-screen/\">Documentation on Updating WordPress</a>"
@@ -4509,7 +4509,7 @@ msgstr "REST API gặp lỗi"
 
 #: wp-admin/includes/class-wp-site-health.php:2132
 msgid "The REST API is one way that WordPress and other applications communicate with the server. For example, the block editor screen relies on the REST API to display and save your posts and pages."
-msgstr "API REST là một cách mà WordPress và các ứng dụng khác giao tiếp với máy chủ. Ví dụ: màn hình trình chỉnh sửa khối dựa vào API REST để hiển thị và lưu các bài đăng và trang của bạn."
+msgstr "API REST là một cách mà WordPress và các ứng dụng khác giao tiếp với máy chủ. Ví dụ: màn hình trình chỉnh sửa khối dựa vào API REST để hiển thị và lưu các bài viết và trang của bạn."
 
 #: wp-admin/includes/class-wp-site-health.php:2124
 msgid "The REST API is available"
@@ -5287,13 +5287,13 @@ msgstr "Trang này sử dụng HTTPS?"
 
 #: wp-admin/includes/class-wp-debug-data.php:99
 msgid "No permalink structure set"
-msgstr "Chưa thiết lập liên kết cố định"
+msgstr "Chưa thiết lập đường dẫn cố định"
 
 #. translators: Hidden accessibility text.
 #: wp-admin/includes/class-wp-debug-data.php:98
 #: wp-admin/options-permalink.php:330 wp-admin/options-permalink.php:336
 msgid "Permalink structure"
-msgstr "Cấu trúc liên kết cố định"
+msgstr "Cấu trúc đường dẫn cố định"
 
 #: wp-admin/includes/class-wp-debug-data.php:93
 msgid "Site URL"
@@ -6619,12 +6619,12 @@ msgstr "Tag sẵn có:"
 #. translators: %s: Permalink structure tag.
 #: wp-admin/options-permalink.php:315
 msgid "%s (already used in permalink structure)"
-msgstr "%s (đã sử dụng trong cấu trúc liên kết cố định)"
+msgstr "%s (đã sử dụng trong cấu trúc đường dẫn cố định)"
 
 #. translators: %s: Permalink structure tag.
 #: wp-admin/options-permalink.php:311
 msgid "%s added to permalink structure"
-msgstr "%s đã được thêm vào cấu trúc liên kết cố định"
+msgstr "%s đã được thêm vào cấu trúc đường dẫn cố định"
 
 #. translators: %s: Permalink structure tag.
 #: wp-admin/options-permalink.php:298
@@ -7836,11 +7836,11 @@ msgstr "Mặc định"
 #. translators: %s: Documentation URL.
 #: wp-admin/options-permalink.php:226
 msgid "WordPress offers you the ability to create a custom URL structure for your permalinks and archives. Custom URL structures can improve the aesthetics, usability, and forward-compatibility of your links. A <a href=\"%s\">number of tags are available</a>, and here are some examples to get you started."
-msgstr "WordPress cung cấp cho bạn khả năng tạo cấu trúc URL tùy chỉnh cho liên kết cố định và kho lưu trữ của bạn. Cấu trúc URL tùy chỉnh có thể cải thiện tính thẩm mỹ, khả năng sử dụng và khả năng tương thích về phía trước của các liên kết của bạn. Hiện có <a href=\"%s\">một số thẻ</a> và đây là một số ví dụ giúp bạn bắt đầu."
+msgstr "WordPress cung cấp cho bạn khả năng tạo cấu trúc URL tùy chỉnh cho đường dẫn cố định và kho lưu trữ của bạn. Cấu trúc URL tùy chỉnh có thể cải thiện tính thẩm mỹ, khả năng sử dụng và khả năng tương thích về phía trước của các liên kết của bạn. Hiện có <a href=\"%s\">một số thẻ</a> và đây là một số ví dụ giúp bạn bắt đầu."
 
 #: wp-admin/options-permalink.php:34
 msgid "Permalinks can contain useful information, such as the post date, title, or other elements. You can choose from any of the suggested permalink formats, or you can craft your own if you select Custom Structure."
-msgstr "Liên kết cố định có thể chứa nhiều thông tin hữu ích, ví dụ ngày đăng bài, tiêu đề hoặc những yếu tố khác. Bạn có thể chọn bất cứ cấu trúc nào được định sẵn, hoặc bạn có thể tạo cấu trúc của riêng mình bằng cách chọn tuỳ chỉnh."
+msgstr "Đường dẫn cố định có thể chứa nhiều thông tin hữu ích, ví dụ ngày đăng bài, tiêu đề hoặc những yếu tố khác. Bạn có thể chọn bất cứ cấu trúc nào được định sẵn, hoặc bạn có thể tạo cấu trúc của riêng mình bằng cách chọn tuỳ chỉnh."
 
 #. translators: %s: wp-config.php
 #: wp-admin/setup-config.php:429
@@ -8067,7 +8067,7 @@ msgstr "Đang lưu bản sửa đổi&hellip;"
 
 #: wp-admin/includes/post.php:1597
 msgid "Edit permalink"
-msgstr "Sửa liên kết cố định"
+msgstr "Sửa đường dẫn cố định"
 
 #. translators: 1: Site Wide Only: true, 2: Network: true
 #: wp-admin/includes/plugin.php:99
@@ -8286,7 +8286,7 @@ msgstr "Đã gửi vào lúc: %s"
 #: wp-admin/edit-form-comment.php:37
 msgctxt "comment"
 msgid "Permalink:"
-msgstr "Liên kết cố định:"
+msgstr "Đường dẫn cố định:"
 
 #: wp-admin/edit-form-advanced.php:208
 msgid "Page draft updated."
@@ -8496,7 +8496,7 @@ msgstr "Ngày và giờ"
 
 #: wp-admin/edit-form-advanced.php:362
 msgid "You can also embed media from many popular websites including Twitter, YouTube, Flickr and others by pasting the media URL on its own line into the content of your post/page. <a href=\"https://wordpress.org/documentation/article/embeds/\">Learn more about embeds</a>."
-msgstr "Bạn cũng có thể nhúng phương tiện từ nhiều trang web phổ biến bao gồm Twitter, YouTube, Flickr và các trang khác bằng cách dán URL phương tiện trên dòng riêng của nó vào nội dung bài đăng/trang của bạn. <a href=\"https://wordpress.org/documentation/article/embeds/\">Tìm hiểu thêm về nội dung nhúng</a>."
+msgstr "Bạn cũng có thể nhúng phương tiện từ nhiều trang web phổ biến bao gồm Twitter, YouTube, Flickr và các trang khác bằng cách dán URL phương tiện trên dòng riêng của nó vào nội dung bài viết/trang của bạn. <a href=\"https://wordpress.org/documentation/article/embeds/\">Tìm hiểu thêm về nội dung nhúng</a>."
 
 #: wp-admin/includes/class-custom-background.php:110
 msgid "<a href=\"https://codex.wordpress.org/Appearance_Background_Screen\">Documentation on Custom Background</a>"
@@ -8529,7 +8529,7 @@ msgstr "Chủ đề bạn hiện đang sử dụng không nhận biết được
 #. translators: %s: Documentation URL.
 #: wp-admin/options-writing.php:227
 msgid "When you publish a new post, WordPress automatically notifies the following site update services. For more about this, see the <a href=\"%s\">Update Services</a> documentation article. Separate multiple service URLs with line breaks."
-msgstr "Khi bạn xuất bản một bài đăng mới, WordPress sẽ tự động thông báo cho các dịch vụ cập nhật trang web sau. Để biết thêm về điều này, hãy xem bài viết tài liệu về <a href=\"%s\">Dịch vụ cập nhật</a>. Phân tách nhiều URL dịch vụ bằng dấu ngắt dòng."
+msgstr "Khi bạn xuất bản một bài viết mới, WordPress sẽ tự động thông báo cho các dịch vụ cập nhật trang web sau. Để biết thêm về điều này, hãy xem bài viết tài liệu về <a href=\"%s\">Dịch vụ cập nhật</a>. Phân tách nhiều URL dịch vụ bằng dấu ngắt dòng."
 
 #: wp-admin/includes/options.php:137
 msgid "The <a href=\"https://wordpress.org/documentation/article/wordpress-glossary/#character-set\">character encoding</a> of your site (UTF-8 is recommended)"
@@ -11182,7 +11182,7 @@ msgstr "Có gì mới"
 
 #: wp-admin/options-permalink.php:25
 msgid "This screen allows you to choose your permalink structure. You can choose from common settings or create custom URL structures."
-msgstr "Màn hình này cho phép bạn chọn cấu trúc liên kết cố định của mình. Bạn có thể chọn từ các cài đặt chung hoặc tạo cấu trúc URL tùy chỉnh."
+msgstr "Màn hình này cho phép bạn chọn cấu trúc đường dẫn cố định của mình. Bạn có thể chọn từ các cài đặt chung hoặc tạo cấu trúc URL tùy chỉnh."
 
 #. translators: 1: WordPress version, 2: URL to About screen.
 #: wp-admin/includes/update-core.php:1624 wp-admin/update-core.php:931
@@ -11191,7 +11191,7 @@ msgstr "Chào mừng tới WordPress %1$s. <a href=\"%2$s\">Đọc tiếp</a>."
 
 #: wp-admin/media-new.php:51
 msgid "You can upload media files here without creating a post first. This allows you to upload files to use with posts and pages later and/or to get a web link for a particular file that you can share. There are three options for uploading files:"
-msgstr "Bạn có thể tải lên nội dung đa phương tiện tại đây mà không cần tạo bài viết trước. Điều này cho phép bạn tải tập tin lên để sử dụng với bài viết và trang tĩnh vào lúc khác và/hoặc để có liên kết cố định tới tập tin nào đó mà bạn muốn chia sẻ. Có ba lựa chọn tải tập tin lên:"
+msgstr "Bạn có thể tải lên nội dung đa phương tiện tại đây mà không cần tạo bài viết trước. Điều này cho phép bạn tải tập tin lên để sử dụng với bài viết và trang tĩnh vào lúc khác và/hoặc để có đường dẫn cố định tới tập tin nào đó mà bạn muốn chia sẻ. Có ba lựa chọn tải tập tin lên:"
 
 #: wp-admin/edit-tags.php:296
 msgid "Adding Tags"
@@ -11293,7 +11293,7 @@ msgstr "Cài đặt cơ bản"
 
 #: wp-admin/options-permalink.php:24
 msgid "Permalinks are the permanent URLs to your individual pages and blog posts, as well as your category and tag archives. A permalink is the web address used to link to your content. The URL to each post should be permanent, and never change &#8212; hence the name permalink."
-msgstr "Liên kết cố định là những địa chỉ mạng cố định tới các trang tĩnh và bài viết cụ thể, cũng như tới nội dung lưu trữ tương ứng với nhóm phân loại và thẻ đánh dấu của bạn. Một liên kết cố định là một địa chỉ mạng được sử dụng để truy cập nội dung của bạn. Địa chỉ mạng tới mỗi bài viết nên cố định, và không bao giờ thay đổi &#8212; vì thế được gọi là liên kết cố định."
+msgstr "Đường dẫn cố định là những địa chỉ mạng cố định tới các trang tĩnh và bài viết cụ thể, cũng như tới nội dung lưu trữ tương ứng với nhóm phân loại và thẻ đánh dấu của bạn. Một đường dẫn cố định là một địa chỉ mạng được sử dụng để truy cập nội dung của bạn. Địa chỉ mạng tới mỗi bài viết nên cố định, và không bao giờ thay đổi &#8212; vì thế được gọi là đường dẫn cố định."
 
 #: wp-admin/options-writing.php:24
 msgid "You can submit content in several different ways; this screen holds the settings for all of them. The top section controls the editor within the dashboard, while the rest control external publishing methods. For more information on any of these methods, use the documentation links."
@@ -11341,7 +11341,7 @@ msgstr "<strong>Kéo và thả</strong> các tập tin của bạn vào ô phía
 
 #: wp-admin/edit-tags.php:256
 msgid "You can assign keywords to your posts using <strong>tags</strong>. Unlike categories, tags have no hierarchy, meaning there is no relationship from one tag to another."
-msgstr "Bạn có thể chỉ định từ khóa cho bài đăng của mình bằng cách sử dụng <strong>thẻ</strong>. Không giống như danh mục, thẻ không có thứ bậc, nghĩa là không có mối quan hệ giữa thẻ này với thẻ khác."
+msgstr "Bạn có thể chỉ định từ khóa cho bài viết của mình bằng cách sử dụng <strong>thẻ</strong>. Không giống như danh mục, thẻ không có thứ bậc, nghĩa là không có mối quan hệ giữa thẻ này với thẻ khác."
 
 #: wp-admin/edit-tags.php:254
 msgid "You can create groups of links by using Link Categories. Link Category names must be unique and Link Categories are separate from the categories you use for posts."
@@ -11369,7 +11369,7 @@ msgstr "Bạn cũng có thể thực hiện các thao tác như với bài viế
 
 #: wp-admin/edit.php:319
 msgid "Managing pages is very similar to managing posts, and the screens can be customized in the same way."
-msgstr "Quản lý trang rất giống với quản lý bài đăng và màn hình có thể được tùy chỉnh theo cách tương tự."
+msgstr "Quản lý trang rất giống với quản lý bài viết và màn hình có thể được tùy chỉnh theo cách tương tự."
 
 #: wp-admin/edit-form-advanced.php:323 wp-admin/edit.php:311
 msgid "Pages are similar to posts in that they have a title, body text, and associated metadata, but they are different in that they are not part of the chronological blog stream, kind of like permanent posts. Pages are not categorized or tagged, but can have a hierarchy. You can nest pages under other pages by making one the &#8220;Parent&#8221; of the other, creating a group of pages."
@@ -11385,7 +11385,7 @@ msgstr "Trong cột <strong>Tác giả</strong>, ngoài tên, địa chỉ email
 
 #: wp-admin/edit-comments.php:210
 msgid "You can manage comments made on your site similar to the way you manage posts and other content. This screen is customizable in the same ways as other management screens, and you can act on comments using the on-hover action links or the bulk actions."
-msgstr "Bạn có thể quản lý các nhận xét được đưa ra trên trang web của mình tương tự như cách bạn quản lý bài đăng và nội dung khác. Màn hình này có thể tùy chỉnh theo cách tương tự như các màn hình quản lý khác và bạn có thể xử lý các nhận xét bằng cách sử dụng liên kết hành động khi di chuột hoặc hành động hàng loạt."
+msgstr "Bạn có thể quản lý các nhận xét được đưa ra trên trang web của mình tương tự như cách bạn quản lý bài viết và nội dung khác. Màn hình này có thể tùy chỉnh theo cách tương tự như các màn hình quản lý khác và bạn có thể xử lý các nhận xét bằng cách sử dụng liên kết hành động khi di chuột hoặc hành động hàng loạt."
 
 #: wp-admin/index.php:52
 msgid "Links in the Toolbar at the top of the screen connect your dashboard and the front end of your site, and provide access to your profile and helpful WordPress information."
@@ -12402,12 +12402,12 @@ msgstr "Bạn có thể lựa chọn nội dung được hiển thị trên tran
 
 #: wp-admin/options-permalink.php:54
 msgid "The Optional fields let you customize the &#8220;category&#8221; and &#8220;tag&#8221; base names that will appear in archive URLs. For example, the page listing all posts in the &#8220;Uncategorized&#8221; category could be <code>/topics/uncategorized</code> instead of <code>/category/uncategorized</code>."
-msgstr "Các trường Tùy chọn cho phép bạn tùy chỉnh &#8220;danh mục&#8221; và &#8220;thẻ&#8221; tên cơ sở sẽ xuất hiện trong URL lưu trữ. Ví dụ: trang liệt kê tất cả các bài đăng trong phần &#8220;Chưa được phân loại&#8221; danh mục có thể là <code>/topics/uncategorized</code> thay vì <code>/category/uncategorized</code>."
+msgstr "Các trường Tùy chọn cho phép bạn tùy chỉnh &#8220;danh mục&#8221; và &#8220;thẻ&#8221; tên cơ sở sẽ xuất hiện trong URL lưu trữ. Ví dụ: trang liệt kê tất cả các bài viết trong phần &#8220;Chưa được phân loại&#8221; danh mục có thể là <code>/topics/uncategorized</code> thay vì <code>/category/uncategorized</code>."
 
 #. translators: 1: %category%, 2: %tag%
 #: wp-admin/options-permalink.php:42
 msgid "When you assign multiple categories or tags to a post, only one can show up in the permalink: the lowest numbered category. This applies if your custom structure includes %1$s or %2$s."
-msgstr "Khi bạn chỉ định nhiều danh mục hoặc thẻ cho một bài đăng, chỉ một danh mục hoặc thẻ có thể hiển thị trong liên kết cố định: danh mục được đánh số thấp nhất. Điều này áp dụng nếu cấu trúc tùy chỉnh của bạn bao gồm %1$s hoặc %2$s."
+msgstr "Khi bạn chỉ định nhiều danh mục hoặc thẻ cho một bài viết, chỉ một danh mục hoặc thẻ có thể hiển thị trong đường dẫn cố định: danh mục được đánh số thấp nhất. Điều này áp dụng nếu cấu trúc tùy chỉnh của bạn bao gồm %1$s hoặc %2$s."
 
 #. translators: %s: Percent sign (%).
 #: wp-admin/options-permalink.php:37
@@ -12743,7 +12743,7 @@ msgstr "<strong>%s</strong> - Cho phép bạn kết hợp một hình ảnh vớ
 
 #: wp-admin/edit-form-advanced.php:292
 msgid "<strong>Title</strong> &mdash; Enter a title for your post. After you enter a title, you&#8217;ll see the permalink below, which you can edit."
-msgstr "<strong>Tiêu đề</strong> &mdash; Nhập tiêu đề cho bài viết của bạn. Sau khi nhập tiêu đề, bạn sẽ thấy liên kết cố định bên dưới mà bạn có thể chỉnh sửa."
+msgstr "<strong>Tiêu đề</strong> &mdash; Nhập tiêu đề cho bài viết của bạn. Sau khi nhập tiêu đề, bạn sẽ thấy đường dẫn cố định bên dưới mà bạn có thể chỉnh sửa."
 
 #: wp-admin/edit.php:276
 msgid "Hovering over a row in the posts list will display action links that allow you to manage your post. You can perform the following actions:"
@@ -13893,16 +13893,16 @@ msgstr "Ngày và tên bài viết"
 
 #: wp-admin/options-permalink.php:176
 msgid "Permalink structure updated."
-msgstr "Cấu trúc liên kết cố định đã cập nhật."
+msgstr "Cấu trúc đường dẫn cố định đã cập nhật."
 
 #. translators: %s: web.config
 #: wp-admin/options-permalink.php:189
 msgid "Permalink structure updated. Remove write access on %s file now!"
-msgstr "Cấu trúc liên kết cố định đã được cập nhật. Bỏ quyền ghi cho tệp tin %s ngay!"
+msgstr "Cấu trúc đường dẫn cố định đã được cập nhật. Bỏ quyền ghi cho tệp tin %s ngay!"
 
 #: wp-admin/options-permalink.php:17 wp-admin/options-permalink.php:33
 msgid "Permalink Settings"
-msgstr "Cài đặt liên kết cố định"
+msgstr "Cài đặt đường dẫn cố định"
 
 #: wp-admin/options-media.php:163
 msgid "Organize my uploads into month- and year-based folders"
@@ -14182,7 +14182,7 @@ msgstr "Hỗ trợ Đa Mạng chưa được bật."
 
 #: wp-admin/menu.php:383
 msgid "Permalinks"
-msgstr "Liên kết cố định"
+msgstr "Đường dẫn cố định"
 
 #: wp-admin/about.php:40 wp-admin/contribute.php:37 wp-admin/credits.php:40
 #: wp-admin/freedoms.php:43 wp-admin/menu.php:384
@@ -14648,7 +14648,7 @@ msgstr "Một trang web mới sử dụng WordPress"
 
 #: wp-admin/includes/post.php:1569 wp-admin/includes/post.php:1594
 msgid "Permalink:"
-msgstr "Liên kết cố định:"
+msgstr "Đường dẫn cố định:"
 
 #: wp-admin/includes/post.php:761
 msgid "Auto Draft"
