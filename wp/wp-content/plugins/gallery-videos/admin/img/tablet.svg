@@ -1,0 +1,12 @@
+<svg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><rect width='16' height='16' stroke='none' fill='#000000' opacity='0'/>
+<g transform="matrix(0.5 0 0 0.5 8 8)" >
+<g style="" >
+<g transform="matrix(1 0 0 1 1.5 0)" >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: #8c8c8c; fill-rule: nonzero; opacity: 0.3;" transform=" translate(-13.5, -12)" d="M 6 5 L 21 5 L 21 19 L 6 19 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 0 0)" >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: #8c8c8c; fill-rule: nonzero; opacity: 1;" transform=" translate(-12, -12)" d="M 20 4 L 4 4 C 2.895 4 2 4.895 2 6 L 2 18 C 2 19.105 2.895 20 4 20 L 20 20 C 21.105 20 22 19.105 22 18 L 22 6 C 22 4.895 21.105 4 20 4 z M 5 14 L 4 14 L 4 10 L 5 10 L 5 14 z M 20 18 L 7 18 L 7 6 L 20 6 L 20 18 z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</svg>

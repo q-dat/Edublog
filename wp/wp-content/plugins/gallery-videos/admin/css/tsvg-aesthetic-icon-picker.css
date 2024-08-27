@@ -1,0 +1,336 @@
+.ts-vgallery-icon-picker-wrap {
+	text-align: center;
+}
+button.ts-vgallery-select-icon {
+	padding: 1.25rem;
+	border-radius: .3125rem;
+	background-color: #70b2dc;
+	font-size: 1.375rem;
+	cursor: pointer;
+}
+.ts-vgallery-icon-picker-wrap ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline-flex;
+}
+.ts-vgallery-icon-picker-wrap ul li {
+	border: .125rem solid #ddd;
+	line-height: 1;
+	font-size: 1.25rem;
+	cursor: pointer;
+	padding: .25rem;
+	margin: 0;
+}
+.ts-vgallery-icon-picker-wrap ul li i {
+	font-size: 1.25rem;
+	line-height: 1;
+	margin: 0;
+}
+.ts-vgallery-icon-picker-wrap ul li:nth-child(2) {
+	border-left: 0;
+}
+.ts-vgallery-aim-modal {
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 9999999999;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	display: flex;
+	align-items: center;
+	transition: all 0.4s ease-in-out;
+}
+.ts-vgallery-aim-modal .ts-vgallery-aim-modal--content {
+	position: absolute;
+	border-radius: .1875rem;
+	box-shadow: .125rem .5rem 1.4375rem .1875rem rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	font-family: Roboto, Arial, Helvetica, Verdana, sans-serif;
+	background-color: #f1f3f5;
+	width: 100%;
+	margin: auto;
+	left: 0;
+	right: 0;
+}
+/* Header */
+.ts-vgallery-aim-modal .ts-vgallery-aim-modal--header {
+	padding: .9375rem .9375rem;
+	background-color: #fff;
+	box-shadow: 0 0 .5rem rgb(0 0 0 / 10%);
+	position: relative;
+	z-index: 1;
+	font-size: .9375rem;
+	color: #495157;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.ts-vgallery-aim-modal--header-logo-title {
+	padding-top: .125rem;
+	line-height: 1;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+}
+.ts-vgallery-aim-modal--header-close-btn {
+	cursor: pointer;
+}
+.ts-vgallery-aim-modal--header-close-btn i {
+	font-size: 1.375rem;
+}
+/* body */
+.ts-vgallery-aim-modal--body {
+	font-size: .75rem;
+	line-height: 1.5;
+	box-sizing: border-box;
+	padding: 0;
+	height: 43.75rem;
+	display: flex;
+	min-height: 3.125rem;
+	max-height: 85vh;
+	overflow: auto;
+}
+.tsvg-set-icon-none {
+	color: #ff0000;
+}
+/* Sidebar Tabs */
+.ts-vgallery-aim-modal--sidebar {
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	width: 25%;
+	background-color: hsla(0, 0%, 100%, .3);
+}
+.ts-vgallery-aim-modal--sidebar-tabs {
+	margin-top: 1.875rem;
+}
+.ts-vgallery-aim-modal--sidebar-tab-item {
+	padding: .9375rem 0 .9375rem 2.8125rem;
+	font-size: .875rem;
+	color: #6d7882;
+	text-align: left;
+	cursor: pointer;
+	position: relative;
+	display: flex;
+	align-items: center;
+	text-transform: capitalize;
+}
+.ts-vgallery-aim-modal--sidebar-tab-item i {
+	font-size: 1.25rem;
+	padding-right: .9375rem;
+	color: #a4afb7;
+}
+.ts-vgallery-aim-modal--sidebar-tab-item.aesthetic-active {
+	background-color: #fff;
+	-webkit-box-shadow: 0 .375rem 1.25rem 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 .375rem 1.25rem 0 rgba(0, 0, 0, 0.1);
+}
+.ts-vgallery-aim-modal--sidebar-tab-item.aesthetic-active:after {
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: .3125rem;
+	top: 0;
+	left: 0;
+	background-color: #4b55be;
+}
+.ts-vgallery-aim-modal--sidebar-tab-item.aesthetic-active i {
+	color: #4b55be;
+}
+/* Preview wrapper */
+.ts-vgallery-aim-modal--icon-preview-wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding: 1.875rem 5rem 0;
+	width: 75%;
+}
+.ts-vgallery-aim-modal--icon-preview-inner {
+	overflow: auto;
+	margin: 1.5625rem -0.9375rem 0;
+	padding: 0 .9375rem .9375rem;
+}
+#ts-vgallery-aim-modal--icon-preview {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 1.25rem;
+	margin: 1.25rem 0;
+}
+/* search filter */
+.ts-vgallery-aim-modal--icon-search {
+	position: relative;
+}
+.ts-vgallery-aim-modal--icon-search input {
+	width: 100%;
+	padding: .5rem .9375rem;
+	background-color: #fff;
+	border: none;
+}
+.ts-vgallery-aim-modal--icon-search input::-webkit-input-placeholder {
+	font-style: italic;
+}
+.ts-vgallery-aim-modal--icon-search input::-moz-placeholder {
+	font-style: italic;
+}
+.ts-vgallery-aim-modal--icon-search input::-ms-input-placeholder {
+	font-style: italic;
+}
+.ts-vgallery-aim-modal--icon-search input::placeholder {
+	font-style: italic;
+}
+.ts-vgallery-aim-modal--icon-search i {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	right: 3%;
+}
+/* Icon Item */
+.ts-vgallery-aim-icon-item {
+	position: relative;
+	padding: .625rem;
+	background-color: #fff;
+	-webkit-box-shadow: 0 .0625rem .75rem rgba(0, 0, 0, 0.05);
+	box-shadow: 0 .0625rem .75rem rgba(0, 0, 0, 0.05);
+	-webkit-border-radius: .1875rem;
+	border-radius: .1875rem;
+	cursor: pointer;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	overflow: hidden;
+}
+.ts-vgallery-aim-icon-item:hover {
+	-webkit-box-shadow: 0 .0625rem .875rem rgba(0, 0, 0, 0.16);
+	box-shadow: 0 .0625rem .875rem rgba(0, 0, 0, 0.16);
+}
+.ts-vgallery-aim-icon-item[class$="aesthetic-selected"] {
+	-webkit-box-shadow: 0 .0625rem .75rem rgba(0, 0, 0, 0.05), 0 0 0 .1875rem #4b55be;
+	box-shadow: 0 .0625rem .75rem rgba(0, 0, 0, 0.05), 0 0 0 .1875rem #4b55be;
+}
+.ts-vgallery-aim-icon-item-inner {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: .0625rem;
+}
+.ts-vgallery-aim-icon-item-inner i,
+.ts-vgallery-aim-icon-item__icon {
+	font-size: 1.5625rem;
+	color: #6d7882;
+}
+.ts-vgallery-aim-icon-item-name {
+	color: #c2cbd2;
+	font-size: .6875rem;
+	padding: .8125rem 1.25rem 0;
+	max-width: 100%;
+	white-space: nowrap;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	text-transform: capitalize;
+}
+/* Footer */
+.ts-vgallery-aim-modal .ts-vgallery-aim-modal--footer {
+	border-top: .0625rem solid #e6e9ec;
+	text-align: center;
+	background-color: #fff;
+	border: none;
+	display: none;
+	justify-content: flex-end;
+	padding: .3125rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.1);
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.ts-vgallery-aim-modal--footer button.ts-vgallery-aim-insert-icon-button {
+	padding: .625rem 2.1875rem;
+	color: #fff;
+	font-size: .9375rem;
+	background-color: #4b55be;
+	border: none;
+	cursor: pointer;
+	outline: 0;
+}
+.ts-vgallery-aim-modal .ts-vgallery-aim-modal--footer .aesthetic-button {
+	height: 2.5rem;
+	margin-left: .3125rem;
+}
+.ts-vgallery-aim-modal .ts-vgallery-aim-modal--footer .aesthetic-button-success {
+	padding: .75rem 2.25rem;
+	color: #fff;
+	width: initial;
+	font-size: .9375rem;
+}
+.ts-vgallery-aim-modal .ts-vgallery-aim-modal--footer .aesthetic-button-success:hover {
+	background-color: #4b55be;
+}
+/* Responsive css */
+@media (max-width: 89.9375rem) {
+	.ts-vgallery-aim-modal .ts-vgallery-aim-modal--content {
+		max-width: 90%;
+	}
+	#ts-vgallery-aim-modal--icon-preview {
+		grid-template-columns: repeat(4, 1fr);
+	}
+	.ts-vgallery-aim-modal--icon-preview-wrap {
+		padding: 1.875rem 3.125rem 0;
+	}
+	.ts-vgallery-aim-modal--sidebar-tab-item {
+		padding: .9375rem .9375rem .9375rem 1.5625rem;
+		font-size: .6875rem;
+	}
+	.ts-vgallery-aim-modal--sidebar-tab-item i {
+		font-size: .9375rem;
+	}
+}
+@media (min-width: 90rem) {
+	.ts-vgallery-aim-modal .ts-vgallery-aim-modal--content {
+		max-width: 85%;
+	}
+}
+@media (max-width: 29.9375rem) {
+	.ts-vgallery-aim-modal--icon-preview-wrap {
+		width: 95vw;
+	}
+	#ts-vgallery-aim-modal--icon-preview {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	#ts-vgallery-aim-modal--sidebar {
+		display: none;
+	}
+}
+@media (max-width: 47.9375rem) {
+	#ts-vgallery-aim-modal--icon-preview {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.ts-vgallery-aim-modal--sidebar-tab-item i {
+		display: none;
+	}
+}
+/* for arrow animation */
+.ts-vgallery-icon-picker-wrap ul {
+	position: relative;
+}

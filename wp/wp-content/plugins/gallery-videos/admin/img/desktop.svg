@@ -1,0 +1,24 @@
+<svg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><rect width='16' height='16' stroke='none' fill='#000000' opacity='0'/>
+<g transform="matrix(0.5 0 0 0.5 8 8)" >
+<g style="" >
+<g transform="matrix(1 0 0 1 0 -2)" >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: #8c8c8c; fill-rule: nonzero; opacity: 0.3;" transform=" translate(-12, -10)" d="M 21 17 L 3 17 C 2.448 17 2 16.552 2 16 L 2 4 C 2 3.448 2.448 3 3 3 L 21 3 C 21.552 3 22 3.448 22 4 L 22 16 C 22 16.552 21.552 17 21 17 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 0 7)" >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: #8c8c8c; fill-rule: nonzero; opacity: 1;" transform=" translate(-12, -19)" d="M 10 17 L 14 17 L 14 21 L 10 21 L 10 17 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 0 -2)" >
+<path style="stroke: #8c8c8c; stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform=" translate(-12, -10)" d="M 21 17 L 3 17 C 2.448 17 2 16.552 2 16 L 2 4 C 2 3.448 2.448 3 3 3 L 21 3 C 21.552 3 22 3.448 22 4 L 22 16 C 22 16.552 21.552 17 21 17 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 0 9)" >
+<line style="stroke: #8c8c8c; stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" x1="-4" y1="0" x2="4" y2="0" />
+</g>
+<g transform="matrix(1 0 0 1 2 -4)" >
+<polyline style="stroke: #8c8c8c; stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" points="1,-2 -1,0 1,2 " />
+</g>
+<g transform="matrix(1 0 0 1 -2 0)" >
+<polyline style="stroke: #8c8c8c; stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" points="-1,2 1,0 -1,-2 " />
+</g>
+</g>
+</g>
+</svg>
